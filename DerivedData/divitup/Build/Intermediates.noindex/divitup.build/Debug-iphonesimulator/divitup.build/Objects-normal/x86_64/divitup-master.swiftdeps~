@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)"
 options: "464c60e89ba1a8e1c2a1771f4612e4b9"
-build_time: [1631305918, 624299000]
+build_time: [1631308055, 40433000]
 inputs:
   "/Users/danny/Documents/code/swift/divitup/divitup/Model/Item+CoreDataClass.swift": [1631294309, 426608500]
   "/Users/danny/Documents/code/swift/divitup/divitup/Controller/ReceiptsViewController.swift": [1631293671, 234445633]
@@ -11,7 +11,7 @@ inputs:
   "/Users/danny/Documents/code/swift/divitup/divitup/Model/Item+CoreDataProperties.swift": [1631294329, 598799234]
   "/Users/danny/Documents/code/swift/divitup/divitup/Model/Receipt+CoreDataProperties.swift": [1631292923, 746092543]
   "/Users/danny/Documents/code/swift/divitup/divitup/View/ReceiptTableViewCell.swift": [1631109723, 910708205]
-  "/Users/danny/Documents/code/swift/divitup/divitup/Controller/ReceiptViewController.swift": [1631305918, 178367028]
+  "/Users/danny/Documents/code/swift/divitup/divitup/Controller/ReceiptViewController.swift": [1631308052, 798434405]
   "/Users/danny/Documents/code/swift/divitup/divitup/Model/Receipt+CoreDataClass.swift": [1631292916, 940449865]
   "/Users/danny/Documents/code/swift/divitup/divitup/Model/Person+CoreDataProperties.swift": [1631239415, 489600906]
   "/Users/danny/Documents/code/swift/divitup/divitup/View/TaxesFees/TaxesFeesHeaderView.swift": [1631238737, 371926710]

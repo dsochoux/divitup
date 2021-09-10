@@ -37,6 +37,21 @@ extension ReceiptViewController: UITableViewDelegate, UITableViewDataSource {
         return 4
     }
     
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        switch section {
+        case 0:
+            return receipt?.items?.count ?? 0
+        case 1:
+            return receipt?.people?.count ?? 0
+        case 2:
+            return 0
+        case 3:
+            return 1
+        default:
+            return 0
+        }
+    }
+    
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         switch section {
         case 0:
@@ -69,21 +84,6 @@ extension ReceiptViewController: UITableViewDelegate, UITableViewDataSource {
         return 40
     }
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        switch section {
-        case 0:
-            return receipt?.items?.count ?? 0
-        case 1:
-            return receipt?.people?.count ?? 0
-        case 2:
-            return 0
-        case 3:
-            return 1
-        default:
-            return 0
-        }
-    }
-    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell()
         cell.selectionStyle = .none
@@ -114,7 +114,60 @@ extension ReceiptViewController: UITableViewDelegate, UITableViewDataSource {
         }
     }
     
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+        switch indexPath.section {
+        case 0:
+            return true
+        case 1:
+            return true
+        default:
+            return false
+        }
+    }
+    
+    func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+        switch indexPath.section {
+        case 0:
+            let deleteAction = UIContextualAction(style: .destructive, title: "Delete") { contextualAction, view, boolValue in
+                //delete the item
+                let items = self.receipt?.items?.allObjects as! [Item]
+                let itemToRemove = items[indexPath.row]
+                self.receipt?.removeFromItems(itemToRemove)
+                
+                //save the changes
+                do {
+                    try self.context.save()
+                    self.fetchReceipt()
+                } catch {
+                    fatalError("could not save deletion of item")
+                }
+            }
+            //deleteAction.backgroundColor = .systemRed
+            let editAction = UIContextualAction(style: .normal, title: "Edit") { contextualAction, view, boolValue in
+                print("the user wants do edit an item")
+            }
+            editAction.backgroundColor = .systemBlue
+            let swipeActions = UISwipeActionsConfiguration(actions: [deleteAction, editAction])
+            return swipeActions
+        case 1:
+            let deleteAction = UIContextualAction(style: .destructive, title: "Delete") { contextualAction, view, boolValue in
+                //delete the item
+                let people = self.receipt?.people?.allObjects as! [Person]
+                let personToRemove = people[indexPath.row]
+                self.receipt?.removeFromPeople(personToRemove)
+                //save the changes
+                do {
+                    try self.context.save()
+                    self.fetchReceipt()
+                } catch {
+                    fatalError("could not save deletion of item")
+                }
+            }
+            let swipeActions = UISwipeActionsConfiguration(actions: [deleteAction])
+            return swipeActions
+        default:
+            return nil
+        }
     }
 }
 
