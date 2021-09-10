@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8CCFD4920EF60B8A4D02556C63D823E0DF100BAB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8CCFD4920EF60B8A4D02556C63D823E0DF100BAB" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3E80AF09-A5CE-4A75-A9D5-2E90663DC44A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8CCFD4920EF60B8A4D02556C63D823E0DF100BAB" : "divitup\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "divitup",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "divitup.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dsochoux\/divitup.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8CCFD4920EF60B8A4D02556C63D823E0DF100BAB"
+    }
+  ]
+}

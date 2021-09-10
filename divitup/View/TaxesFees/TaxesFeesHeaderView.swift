@@ -8,8 +8,13 @@
 import UIKit
 
 class TaxesFeesHeaderView: UIView {
+    
+    //reference to the context
+    let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+    
     @IBOutlet var contentView: UIView!
     @IBOutlet weak var taxesfeesHeaderLabel: UILabel!
+    var receipt: Receipt?
     
     override init(frame: CGRect) {
         super.init(frame: frame)

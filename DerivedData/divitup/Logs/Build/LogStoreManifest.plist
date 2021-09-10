@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>0579C4A0-A976-4FA9-91AD-A2566FE75683</key>
+		<key>03E5CEDA-5337-4E1A-BD45-24A5260DD9F7</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>0579C4A0-A976-4FA9-91AD-A2566FE75683.xcactivitylog</string>
+			<string>03E5CEDA-5337-4E1A-BD45-24A5260DD9F7.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,15 +32,15 @@
 			<key>signature</key>
 			<string>Build divitup</string>
 			<key>timeStartedRecording</key>
-			<real>652925474.00650704</real>
+			<real>652931374.41225398</real>
 			<key>timeStoppedRecording</key>
-			<real>652925478.49171603</real>
+			<real>652931375.23136199</real>
 			<key>title</key>
 			<string>Build divitup</string>
 			<key>uniqueIdentifier</key>
-			<string>0579C4A0-A976-4FA9-91AD-A2566FE75683</string>
+			<string>03E5CEDA-5337-4E1A-BD45-24A5260DD9F7</string>
 		</dict>
-		<key>05857A12-5529-4C27-8A0B-62030FF7C02E</key>
+		<key>0A4CC5F0-FE82-4CCE-B867-E7C65E9E97E3</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -49,7 +49,41 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>05857A12-5529-4C27-8A0B-62030FF7C02E.xcactivitylog</string>
+			<string>0A4CC5F0-FE82-4CCE-B867-E7C65E9E97E3.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>divitup project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>divitup</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean divitup</string>
+			<key>timeStartedRecording</key>
+			<real>652932028.76516104</real>
+			<key>timeStoppedRecording</key>
+			<real>652932028.82345998</real>
+			<key>title</key>
+			<string>Clean divitup</string>
+			<key>uniqueIdentifier</key>
+			<string>0A4CC5F0-FE82-4CCE-B867-E7C65E9E97E3</string>
+		</dict>
+		<key>0B092B69-9EE5-4A2E-B098-0BA056106565</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0B092B69-9EE5-4A2E-B098-0BA056106565.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -66,15 +100,15 @@
 			<key>signature</key>
 			<string>Build divitup</string>
 			<key>timeStartedRecording</key>
-			<real>652910457.82753003</real>
+			<real>652987426.01705694</real>
 			<key>timeStoppedRecording</key>
-			<real>652910458.44443798</real>
+			<real>652987426.97049999</real>
 			<key>title</key>
 			<string>Build divitup</string>
 			<key>uniqueIdentifier</key>
-			<string>05857A12-5529-4C27-8A0B-62030FF7C02E</string>
+			<string>0B092B69-9EE5-4A2E-B098-0BA056106565</string>
 		</dict>
-		<key>0DE2F2F3-8AB0-4244-901B-E1D719C7A9F2</key>
+		<key>0B5A8992-455F-4A33-84B5-D599A25BFD82</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -83,7 +117,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>0DE2F2F3-8AB0-4244-901B-E1D719C7A9F2.xcactivitylog</string>
+			<string>0B5A8992-455F-4A33-84B5-D599A25BFD82.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -100,15 +134,15 @@
 			<key>signature</key>
 			<string>Build divitup</string>
 			<key>timeStartedRecording</key>
-			<real>652925751.66964602</real>
+			<real>652983350.886742</real>
 			<key>timeStoppedRecording</key>
-			<real>652925751.84740996</real>
+			<real>652983351.64607203</real>
 			<key>title</key>
 			<string>Build divitup</string>
 			<key>uniqueIdentifier</key>
-			<string>0DE2F2F3-8AB0-4244-901B-E1D719C7A9F2</string>
+			<string>0B5A8992-455F-4A33-84B5-D599A25BFD82</string>
 		</dict>
-		<key>1303813F-E50D-4761-9247-3293F4493181</key>
+		<key>102F1CEE-DBC3-4E4D-A2D8-B37BBB472A9B</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -117,7 +151,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>1303813F-E50D-4761-9247-3293F4493181.xcactivitylog</string>
+			<string>102F1CEE-DBC3-4E4D-A2D8-B37BBB472A9B.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -134,15 +168,15 @@
 			<key>signature</key>
 			<string>Build divitup</string>
 			<key>timeStartedRecording</key>
-			<real>652843056.39048898</real>
+			<real>652986907.48946095</real>
 			<key>timeStoppedRecording</key>
-			<real>652843056.94366705</real>
+			<real>652986908.53745306</real>
 			<key>title</key>
 			<string>Build divitup</string>
 			<key>uniqueIdentifier</key>
-			<string>1303813F-E50D-4761-9247-3293F4493181</string>
+			<string>102F1CEE-DBC3-4E4D-A2D8-B37BBB472A9B</string>
 		</dict>
-		<key>13A83FA8-A30A-4887-A403-025DFA30F872</key>
+		<key>16217F04-060A-4CFA-9556-F32C279C9930</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -151,7 +185,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>13A83FA8-A30A-4887-A403-025DFA30F872.xcactivitylog</string>
+			<string>16217F04-060A-4CFA-9556-F32C279C9930.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -168,15 +202,15 @@
 			<key>signature</key>
 			<string>Build divitup</string>
 			<key>timeStartedRecording</key>
-			<real>652900123.74753296</real>
+			<real>652987328.73695898</real>
 			<key>timeStoppedRecording</key>
-			<real>652900123.84230399</real>
+			<real>652987329.65674603</real>
 			<key>title</key>
 			<string>Build divitup</string>
 			<key>uniqueIdentifier</key>
-			<string>13A83FA8-A30A-4887-A403-025DFA30F872</string>
+			<string>16217F04-060A-4CFA-9556-F32C279C9930</string>
 		</dict>
-		<key>13AF19C2-4119-45FB-9CBD-1DDAF5F00398</key>
+		<key>16B1493A-CC5B-404E-8F63-5AD89FA93DC1</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -185,7 +219,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>13AF19C2-4119-45FB-9CBD-1DDAF5F00398.xcactivitylog</string>
+			<string>16B1493A-CC5B-404E-8F63-5AD89FA93DC1.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -202,15 +236,15 @@
 			<key>signature</key>
 			<string>Build divitup</string>
 			<key>timeStartedRecording</key>
-			<real>652841193.69274402</real>
+			<real>652987707.31852198</real>
 			<key>timeStoppedRecording</key>
-			<real>652841195.52015305</real>
+			<real>652987708.245556</real>
 			<key>title</key>
 			<string>Build divitup</string>
 			<key>uniqueIdentifier</key>
-			<string>13AF19C2-4119-45FB-9CBD-1DDAF5F00398</string>
+			<string>16B1493A-CC5B-404E-8F63-5AD89FA93DC1</string>
 		</dict>
-		<key>144B5096-3AC3-4F2E-AD6A-E60F8A8D52CF</key>
+		<key>1D5FAA8C-8429-4FBB-B22F-8E86CE6CB507</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -219,7 +253,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>144B5096-3AC3-4F2E-AD6A-E60F8A8D52CF.xcactivitylog</string>
+			<string>1D5FAA8C-8429-4FBB-B22F-8E86CE6CB507.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -236,15 +270,15 @@
 			<key>signature</key>
 			<string>Build divitup</string>
 			<key>timeStartedRecording</key>
-			<real>652926625.65845895</real>
+			<real>652984099.63140702</real>
 			<key>timeStoppedRecording</key>
-			<real>652926627.87940204</real>
+			<real>652984100.51399302</real>
 			<key>title</key>
 			<string>Build divitup</string>
 			<key>uniqueIdentifier</key>
-			<string>144B5096-3AC3-4F2E-AD6A-E60F8A8D52CF</string>
+			<string>1D5FAA8C-8429-4FBB-B22F-8E86CE6CB507</string>
 		</dict>
-		<key>14C085AF-F12E-4B94-B354-259BDDC03EC3</key>
+		<key>1FE17D59-4886-46AF-83D8-8115B5895CB4</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -253,7 +287,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>14C085AF-F12E-4B94-B354-259BDDC03EC3.xcactivitylog</string>
+			<string>1FE17D59-4886-46AF-83D8-8115B5895CB4.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -270,15 +304,15 @@
 			<key>signature</key>
 			<string>Build divitup</string>
 			<key>timeStartedRecording</key>
-			<real>652900738.61233699</real>
+			<real>652981186.49884498</real>
 			<key>timeStoppedRecording</key>
-			<real>652900739.34235799</real>
+			<real>652981186.53612494</real>
 			<key>title</key>
 			<string>Build divitup</string>
 			<key>uniqueIdentifier</key>
-			<string>14C085AF-F12E-4B94-B354-259BDDC03EC3</string>
+			<string>1FE17D59-4886-46AF-83D8-8115B5895CB4</string>
 		</dict>
-		<key>16D624A7-5ABD-4A37-B6B9-117715E6DA6B</key>
+		<key>25A4B0B0-A2BD-4979-BCF3-D5D5820F093F</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -287,7 +321,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>16D624A7-5ABD-4A37-B6B9-117715E6DA6B.xcactivitylog</string>
+			<string>25A4B0B0-A2BD-4979-BCF3-D5D5820F093F.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -304,15 +338,15 @@
 			<key>signature</key>
 			<string>Build divitup</string>
 			<key>timeStartedRecording</key>
-			<real>652925894.43805504</real>
+			<real>652987481.38032401</real>
 			<key>timeStoppedRecording</key>
-			<real>652925894.70185101</real>
+			<real>652987482.302719</real>
 			<key>title</key>
 			<string>Build divitup</string>
 			<key>uniqueIdentifier</key>
-			<string>16D624A7-5ABD-4A37-B6B9-117715E6DA6B</string>
+			<string>25A4B0B0-A2BD-4979-BCF3-D5D5820F093F</string>
 		</dict>
-		<key>1BC8E20A-4289-4B87-8813-84556024BC9F</key>
+		<key>2853B870-7AD3-4504-BC39-CE4D726A7755</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -321,7 +355,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>1BC8E20A-4289-4B87-8813-84556024BC9F.xcactivitylog</string>
+			<string>2853B870-7AD3-4504-BC39-CE4D726A7755.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -338,15 +372,15 @@
 			<key>signature</key>
 			<string>Build divitup</string>
 			<key>timeStartedRecording</key>
-			<real>652841979.56467199</real>
+			<real>652941568.64053798</real>
 			<key>timeStoppedRecording</key>
-			<real>652841980.34905398</real>
+			<real>652941569.81410897</real>
 			<key>title</key>
 			<string>Build divitup</string>
 			<key>uniqueIdentifier</key>
-			<string>1BC8E20A-4289-4B87-8813-84556024BC9F</string>
+			<string>2853B870-7AD3-4504-BC39-CE4D726A7755</string>
 		</dict>
-		<key>22B18F26-48A0-4388-AF65-8DE9C4E42EC6</key>
+		<key>2A95858C-23D9-46E1-B330-E6EB86D67E44</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -355,7 +389,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>22B18F26-48A0-4388-AF65-8DE9C4E42EC6.xcactivitylog</string>
+			<string>2A95858C-23D9-46E1-B330-E6EB86D67E44.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -372,15 +406,15 @@
 			<key>signature</key>
 			<string>Build divitup</string>
 			<key>timeStartedRecording</key>
-			<real>652925869.09493303</real>
+			<real>652985137.40338397</real>
 			<key>timeStoppedRecording</key>
-			<real>652925869.279724</real>
+			<real>652985138.55629003</real>
 			<key>title</key>
 			<string>Build divitup</string>
 			<key>uniqueIdentifier</key>
-			<string>22B18F26-48A0-4388-AF65-8DE9C4E42EC6</string>
+			<string>2A95858C-23D9-46E1-B330-E6EB86D67E44</string>
 		</dict>
-		<key>2822CCFE-A90B-4E5B-A110-065ED1C7D17B</key>
+		<key>2BA3439A-DECD-4E7E-8DCD-52E4DDCD30C3</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -389,7 +423,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>2822CCFE-A90B-4E5B-A110-065ED1C7D17B.xcactivitylog</string>
+			<string>2BA3439A-DECD-4E7E-8DCD-52E4DDCD30C3.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -406,15 +440,15 @@
 			<key>signature</key>
 			<string>Build divitup</string>
 			<key>timeStartedRecording</key>
-			<real>652841315.962937</real>
+			<real>652986781.93316996</real>
 			<key>timeStoppedRecording</key>
-			<real>652841317.08819795</real>
+			<real>652986782.76766396</real>
 			<key>title</key>
 			<string>Build divitup</string>
 			<key>uniqueIdentifier</key>
-			<string>2822CCFE-A90B-4E5B-A110-065ED1C7D17B</string>
+			<string>2BA3439A-DECD-4E7E-8DCD-52E4DDCD30C3</string>
 		</dict>
-		<key>3AEEEC48-E1B3-4607-B78B-69161FEDB451</key>
+		<key>35DC6E3B-40DC-4806-8572-82F7C9F8C327</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -423,7 +457,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>3AEEEC48-E1B3-4607-B78B-69161FEDB451.xcactivitylog</string>
+			<string>35DC6E3B-40DC-4806-8572-82F7C9F8C327.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -440,15 +474,15 @@
 			<key>signature</key>
 			<string>Build divitup</string>
 			<key>timeStartedRecording</key>
-			<real>652841577.46073401</real>
+			<real>652987130.08026099</real>
 			<key>timeStoppedRecording</key>
-			<real>652841578.09669304</real>
+			<real>652987131.85346699</real>
 			<key>title</key>
 			<string>Build divitup</string>
 			<key>uniqueIdentifier</key>
-			<string>3AEEEC48-E1B3-4607-B78B-69161FEDB451</string>
+			<string>35DC6E3B-40DC-4806-8572-82F7C9F8C327</string>
 		</dict>
-		<key>42344017-3573-45E7-BDF6-61ED78925C53</key>
+		<key>367E57E3-E94F-4EC0-A119-BE8A3373F47C</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -457,41 +491,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>42344017-3573-45E7-BDF6-61ED78925C53.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>divitup project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>divitup</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build divitup</string>
-			<key>timeStartedRecording</key>
-			<real>652910658.54058194</real>
-			<key>timeStoppedRecording</key>
-			<real>652910658.83830202</real>
-			<key>title</key>
-			<string>Build divitup</string>
-			<key>uniqueIdentifier</key>
-			<string>42344017-3573-45E7-BDF6-61ED78925C53</string>
-		</dict>
-		<key>47E4A7B6-18BD-4A92-9686-8300B9102C2D</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>47E4A7B6-18BD-4A92-9686-8300B9102C2D.xcactivitylog</string>
+			<string>367E57E3-E94F-4EC0-A119-BE8A3373F47C.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -508,15 +508,15 @@
 			<key>signature</key>
 			<string>Build divitup</string>
 			<key>timeStartedRecording</key>
-			<real>652925639.62196696</real>
+			<real>652986952.03703904</real>
 			<key>timeStoppedRecording</key>
-			<real>652925639.78196704</real>
+			<real>652986952.96991396</real>
 			<key>title</key>
 			<string>Build divitup</string>
 			<key>uniqueIdentifier</key>
-			<string>47E4A7B6-18BD-4A92-9686-8300B9102C2D</string>
+			<string>367E57E3-E94F-4EC0-A119-BE8A3373F47C</string>
 		</dict>
-		<key>53A4D46E-0574-478E-A319-A4D5F8F779FE</key>
+		<key>3D278303-656F-462A-8733-2D33274C3B19</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -525,449 +525,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>53A4D46E-0574-478E-A319-A4D5F8F779FE.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>divitup project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>divitup</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build divitup</string>
-			<key>timeStartedRecording</key>
-			<real>652925839.10324597</real>
-			<key>timeStoppedRecording</key>
-			<real>652925839.34154999</real>
-			<key>title</key>
-			<string>Build divitup</string>
-			<key>uniqueIdentifier</key>
-			<string>53A4D46E-0574-478E-A319-A4D5F8F779FE</string>
-		</dict>
-		<key>567E57C0-4421-402B-9D1E-83601DD0AFBE</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>567E57C0-4421-402B-9D1E-83601DD0AFBE.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>divitup project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>divitup</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build divitup</string>
-			<key>timeStartedRecording</key>
-			<real>652924488.25231695</real>
-			<key>timeStoppedRecording</key>
-			<real>652924488.94821298</real>
-			<key>title</key>
-			<string>Build divitup</string>
-			<key>uniqueIdentifier</key>
-			<string>567E57C0-4421-402B-9D1E-83601DD0AFBE</string>
-		</dict>
-		<key>5C9CD3E5-F900-4A52-8936-8F038D6BC19D</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>5C9CD3E5-F900-4A52-8936-8F038D6BC19D.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>divitup project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>divitup</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build divitup</string>
-			<key>timeStartedRecording</key>
-			<real>652925693.54337096</real>
-			<key>timeStoppedRecording</key>
-			<real>652925693.77827001</real>
-			<key>title</key>
-			<string>Build divitup</string>
-			<key>uniqueIdentifier</key>
-			<string>5C9CD3E5-F900-4A52-8936-8F038D6BC19D</string>
-		</dict>
-		<key>5F6E2173-A591-472D-BF90-DA9E702A244A</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>5F6E2173-A591-472D-BF90-DA9E702A244A.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>divitup project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>divitup</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build divitup</string>
-			<key>timeStartedRecording</key>
-			<real>652926064.47447598</real>
-			<key>timeStoppedRecording</key>
-			<real>652926066.55797505</real>
-			<key>title</key>
-			<string>Build divitup</string>
-			<key>uniqueIdentifier</key>
-			<string>5F6E2173-A591-472D-BF90-DA9E702A244A</string>
-		</dict>
-		<key>61789FF1-3FB7-4B12-B608-F1ED0A58CEE2</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>61789FF1-3FB7-4B12-B608-F1ED0A58CEE2.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>divitup project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>divitup</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build divitup</string>
-			<key>timeStartedRecording</key>
-			<real>652926693.95766902</real>
-			<key>timeStoppedRecording</key>
-			<real>652926694.69619501</real>
-			<key>title</key>
-			<string>Build divitup</string>
-			<key>uniqueIdentifier</key>
-			<string>61789FF1-3FB7-4B12-B608-F1ED0A58CEE2</string>
-		</dict>
-		<key>6C0049A4-B107-4350-B9D2-7593AD78EDB3</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>6C0049A4-B107-4350-B9D2-7593AD78EDB3.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>divitup project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>divitup</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build divitup</string>
-			<key>timeStartedRecording</key>
-			<real>652841634.91303694</real>
-			<key>timeStoppedRecording</key>
-			<real>652841635.49442601</real>
-			<key>title</key>
-			<string>Build divitup</string>
-			<key>uniqueIdentifier</key>
-			<string>6C0049A4-B107-4350-B9D2-7593AD78EDB3</string>
-		</dict>
-		<key>6CD1F8CA-46A8-4B2C-8BE6-9FD17DD987FD</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>6CD1F8CA-46A8-4B2C-8BE6-9FD17DD987FD.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>divitup project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>divitup</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build divitup</string>
-			<key>timeStartedRecording</key>
-			<real>652840071.01459503</real>
-			<key>timeStoppedRecording</key>
-			<real>652840071.82336497</real>
-			<key>title</key>
-			<string>Build divitup</string>
-			<key>uniqueIdentifier</key>
-			<string>6CD1F8CA-46A8-4B2C-8BE6-9FD17DD987FD</string>
-		</dict>
-		<key>7AA6CC31-A141-4B2D-A7EC-50B4332DBD05</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>7AA6CC31-A141-4B2D-A7EC-50B4332DBD05.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>divitup project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>divitup</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build divitup</string>
-			<key>timeStartedRecording</key>
-			<real>652926079.55992699</real>
-			<key>timeStoppedRecording</key>
-			<real>652926079.75481796</real>
-			<key>title</key>
-			<string>Build divitup</string>
-			<key>uniqueIdentifier</key>
-			<string>7AA6CC31-A141-4B2D-A7EC-50B4332DBD05</string>
-		</dict>
-		<key>7BD0A30D-614C-4F55-8D0A-CECDF4EEF918</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>7BD0A30D-614C-4F55-8D0A-CECDF4EEF918.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>divitup project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>divitup</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build divitup</string>
-			<key>timeStartedRecording</key>
-			<real>652842583.27388597</real>
-			<key>timeStoppedRecording</key>
-			<real>652842585.83809197</real>
-			<key>title</key>
-			<string>Build divitup</string>
-			<key>uniqueIdentifier</key>
-			<string>7BD0A30D-614C-4F55-8D0A-CECDF4EEF918</string>
-		</dict>
-		<key>8018F5F7-1C74-41BC-91DC-A7D64191654B</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>8018F5F7-1C74-41BC-91DC-A7D64191654B.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>divitup project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>divitup</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build divitup</string>
-			<key>timeStartedRecording</key>
-			<real>652850038.10253203</real>
-			<key>timeStoppedRecording</key>
-			<real>652850039.14532304</real>
-			<key>title</key>
-			<string>Build divitup</string>
-			<key>uniqueIdentifier</key>
-			<string>8018F5F7-1C74-41BC-91DC-A7D64191654B</string>
-		</dict>
-		<key>85C94465-3CA1-430A-885A-A5604C0CE04E</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>85C94465-3CA1-430A-885A-A5604C0CE04E.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>divitup project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>divitup</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build divitup</string>
-			<key>timeStartedRecording</key>
-			<real>652917196.90443099</real>
-			<key>timeStoppedRecording</key>
-			<real>652917197.94149399</real>
-			<key>title</key>
-			<string>Build divitup</string>
-			<key>uniqueIdentifier</key>
-			<string>85C94465-3CA1-430A-885A-A5604C0CE04E</string>
-		</dict>
-		<key>86086661-01EE-44D9-892D-9D226F66EA9C</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>86086661-01EE-44D9-892D-9D226F66EA9C.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>divitup project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>divitup</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build divitup</string>
-			<key>timeStartedRecording</key>
-			<real>652927174.47877502</real>
-			<key>timeStoppedRecording</key>
-			<real>652927175.16181898</real>
-			<key>title</key>
-			<string>Build divitup</string>
-			<key>uniqueIdentifier</key>
-			<string>86086661-01EE-44D9-892D-9D226F66EA9C</string>
-		</dict>
-		<key>8A1D0852-389A-429B-AE26-3E6A54E6370B</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>8A1D0852-389A-429B-AE26-3E6A54E6370B.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>divitup project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>divitup</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build divitup</string>
-			<key>timeStartedRecording</key>
-			<real>652926169.04606795</real>
-			<key>timeStoppedRecording</key>
-			<real>652926169.18168902</real>
-			<key>title</key>
-			<string>Build divitup</string>
-			<key>uniqueIdentifier</key>
-			<string>8A1D0852-389A-429B-AE26-3E6A54E6370B</string>
-		</dict>
-		<key>A02A59E6-0E53-4957-9DB7-ADF76B7ADC54</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>A02A59E6-0E53-4957-9DB7-ADF76B7ADC54.xcactivitylog</string>
+			<string>3D278303-656F-462A-8733-2D33274C3B19.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -984,15 +542,15 @@
 			<key>signature</key>
 			<string>Build divitup</string>
 			<key>timeStartedRecording</key>
-			<real>652841087.14252102</real>
+			<real>652982330.71005297</real>
 			<key>timeStoppedRecording</key>
-			<real>652841088.46095395</real>
+			<real>652982331.44752705</real>
 			<key>title</key>
 			<string>Build divitup</string>
 			<key>uniqueIdentifier</key>
-			<string>A02A59E6-0E53-4957-9DB7-ADF76B7ADC54</string>
+			<string>3D278303-656F-462A-8733-2D33274C3B19</string>
 		</dict>
-		<key>A143069A-7166-4C66-BB49-DFC055511841</key>
+		<key>460AA840-25EF-4CE6-B2DB-AA2BDA00D9CF</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1001,7 +559,41 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>A143069A-7166-4C66-BB49-DFC055511841.xcactivitylog</string>
+			<string>460AA840-25EF-4CE6-B2DB-AA2BDA00D9CF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>divitup project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>divitup</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean divitup</string>
+			<key>timeStartedRecording</key>
+			<real>652986239.16609001</real>
+			<key>timeStoppedRecording</key>
+			<real>652986239.24881601</real>
+			<key>title</key>
+			<string>Clean divitup</string>
+			<key>uniqueIdentifier</key>
+			<string>460AA840-25EF-4CE6-B2DB-AA2BDA00D9CF</string>
+		</dict>
+		<key>4AC6621B-B7ED-401E-A4E9-2DB71DA03123</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>4AC6621B-B7ED-401E-A4E9-2DB71DA03123.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1018,15 +610,15 @@
 			<key>signature</key>
 			<string>Build divitup</string>
 			<key>timeStartedRecording</key>
-			<real>652926159.989259</real>
+			<real>652987765.42624402</real>
 			<key>timeStoppedRecording</key>
-			<real>652926160.23051798</real>
+			<real>652987766.38947999</real>
 			<key>title</key>
 			<string>Build divitup</string>
 			<key>uniqueIdentifier</key>
-			<string>A143069A-7166-4C66-BB49-DFC055511841</string>
+			<string>4AC6621B-B7ED-401E-A4E9-2DB71DA03123</string>
 		</dict>
-		<key>A28842D1-E40A-44E1-88E6-3A4A623A6DC9</key>
+		<key>4CD34CAC-A388-4AC3-8096-3493B9C6C6D4</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1035,7 +627,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>A28842D1-E40A-44E1-88E6-3A4A623A6DC9.xcactivitylog</string>
+			<string>4CD34CAC-A388-4AC3-8096-3493B9C6C6D4.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1052,15 +644,15 @@
 			<key>signature</key>
 			<string>Build divitup</string>
 			<key>timeStartedRecording</key>
-			<real>652842054.78299797</real>
+			<real>652987446.51114595</real>
 			<key>timeStoppedRecording</key>
-			<real>652842056.84377801</real>
+			<real>652987447.44598699</real>
 			<key>title</key>
 			<string>Build divitup</string>
 			<key>uniqueIdentifier</key>
-			<string>A28842D1-E40A-44E1-88E6-3A4A623A6DC9</string>
+			<string>4CD34CAC-A388-4AC3-8096-3493B9C6C6D4</string>
 		</dict>
-		<key>A573EC02-A0B7-4E96-98DD-4CC6C0A113D4</key>
+		<key>4EE0264E-9D13-43C9-8EA0-C6A4A4F8441A</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1069,7 +661,41 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>A573EC02-A0B7-4E96-98DD-4CC6C0A113D4.xcactivitylog</string>
+			<string>4EE0264E-9D13-43C9-8EA0-C6A4A4F8441A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>divitup project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>divitup</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build divitup</string>
+			<key>timeStartedRecording</key>
+			<real>652983505.43354595</real>
+			<key>timeStoppedRecording</key>
+			<real>652983505.79095304</real>
+			<key>title</key>
+			<string>Build divitup</string>
+			<key>uniqueIdentifier</key>
+			<string>4EE0264E-9D13-43C9-8EA0-C6A4A4F8441A</string>
+		</dict>
+		<key>50FCC753-0478-4362-9646-A152F89BBE29</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>50FCC753-0478-4362-9646-A152F89BBE29.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1086,15 +712,15 @@
 			<key>signature</key>
 			<string>Build divitup</string>
 			<key>timeStartedRecording</key>
-			<real>652925539.29847896</real>
+			<real>652981182.08152294</real>
 			<key>timeStoppedRecording</key>
-			<real>652925540.34012699</real>
+			<real>652981183.335796</real>
 			<key>title</key>
 			<string>Build divitup</string>
 			<key>uniqueIdentifier</key>
-			<string>A573EC02-A0B7-4E96-98DD-4CC6C0A113D4</string>
+			<string>50FCC753-0478-4362-9646-A152F89BBE29</string>
 		</dict>
-		<key>AB20E05A-B5F9-4C24-B6B3-80700687E167</key>
+		<key>52B1230C-224B-42D2-9197-6E6BA2CBBC44</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1103,7 +729,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>AB20E05A-B5F9-4C24-B6B3-80700687E167.xcactivitylog</string>
+			<string>52B1230C-224B-42D2-9197-6E6BA2CBBC44.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1120,15 +746,15 @@
 			<key>signature</key>
 			<string>Build divitup</string>
 			<key>timeStartedRecording</key>
-			<real>652927203.21567404</real>
+			<real>652987008.85512102</real>
 			<key>timeStoppedRecording</key>
-			<real>652927203.95489895</real>
+			<real>652987009.61876798</real>
 			<key>title</key>
 			<string>Build divitup</string>
 			<key>uniqueIdentifier</key>
-			<string>AB20E05A-B5F9-4C24-B6B3-80700687E167</string>
+			<string>52B1230C-224B-42D2-9197-6E6BA2CBBC44</string>
 		</dict>
-		<key>AB602D7C-48E8-48FE-B79F-E76646E37D6A</key>
+		<key>55F279BF-46D4-4871-87F4-BD2B801E20FD</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1137,7 +763,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>AB602D7C-48E8-48FE-B79F-E76646E37D6A.xcactivitylog</string>
+			<string>55F279BF-46D4-4871-87F4-BD2B801E20FD.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1154,15 +780,15 @@
 			<key>signature</key>
 			<string>Build divitup</string>
 			<key>timeStartedRecording</key>
-			<real>652900777.74478197</real>
+			<real>652940748.56042504</real>
 			<key>timeStoppedRecording</key>
-			<real>652900778.32610703</real>
+			<real>652940748.59264898</real>
 			<key>title</key>
 			<string>Build divitup</string>
 			<key>uniqueIdentifier</key>
-			<string>AB602D7C-48E8-48FE-B79F-E76646E37D6A</string>
+			<string>55F279BF-46D4-4871-87F4-BD2B801E20FD</string>
 		</dict>
-		<key>AD526537-21B2-4DB2-9BE7-30FA998221FD</key>
+		<key>56C4F4CF-8B3A-4D74-A38B-7D88BE4BCAEB</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1171,7 +797,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>AD526537-21B2-4DB2-9BE7-30FA998221FD.xcactivitylog</string>
+			<string>56C4F4CF-8B3A-4D74-A38B-7D88BE4BCAEB.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1188,15 +814,15 @@
 			<key>signature</key>
 			<string>Build divitup</string>
 			<key>timeStartedRecording</key>
-			<real>652925725.50366497</real>
+			<real>652983281.02452195</real>
 			<key>timeStoppedRecording</key>
-			<real>652925725.77976596</real>
+			<real>652983281.84946203</real>
 			<key>title</key>
 			<string>Build divitup</string>
 			<key>uniqueIdentifier</key>
-			<string>AD526537-21B2-4DB2-9BE7-30FA998221FD</string>
+			<string>56C4F4CF-8B3A-4D74-A38B-7D88BE4BCAEB</string>
 		</dict>
-		<key>AD6117F7-2FBF-412D-8BB7-1FA6C182DD99</key>
+		<key>57DCBDBE-D85F-4399-AE5F-A911169DDA3A</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1205,7 +831,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>AD6117F7-2FBF-412D-8BB7-1FA6C182DD99.xcactivitylog</string>
+			<string>57DCBDBE-D85F-4399-AE5F-A911169DDA3A.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1222,15 +848,15 @@
 			<key>signature</key>
 			<string>Build divitup</string>
 			<key>timeStartedRecording</key>
-			<real>652924539.20826995</real>
+			<real>652983233.68215096</real>
 			<key>timeStoppedRecording</key>
-			<real>652924539.880983</real>
+			<real>652983233.71416903</real>
 			<key>title</key>
 			<string>Build divitup</string>
 			<key>uniqueIdentifier</key>
-			<string>AD6117F7-2FBF-412D-8BB7-1FA6C182DD99</string>
+			<string>57DCBDBE-D85F-4399-AE5F-A911169DDA3A</string>
 		</dict>
-		<key>AE03AD5F-31C0-4642-8A30-CEBA840E5F9C</key>
+		<key>59B34F27-30FE-4AA3-B838-ED6E65E4F55D</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1239,7 +865,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>AE03AD5F-31C0-4642-8A30-CEBA840E5F9C.xcactivitylog</string>
+			<string>59B34F27-30FE-4AA3-B838-ED6E65E4F55D.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1256,15 +882,15 @@
 			<key>signature</key>
 			<string>Build divitup</string>
 			<key>timeStartedRecording</key>
-			<real>652910683.100649</real>
+			<real>652938094.654374</real>
 			<key>timeStoppedRecording</key>
-			<real>652910683.96103406</real>
+			<real>652938095.38544202</real>
 			<key>title</key>
 			<string>Build divitup</string>
 			<key>uniqueIdentifier</key>
-			<string>AE03AD5F-31C0-4642-8A30-CEBA840E5F9C</string>
+			<string>59B34F27-30FE-4AA3-B838-ED6E65E4F55D</string>
 		</dict>
-		<key>AEA17FEC-9080-4BC7-8CEA-3BB4B12E7E80</key>
+		<key>5C8C93EC-4AE6-4DC4-8494-BD657D323BB2</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1273,7 +899,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>AEA17FEC-9080-4BC7-8CEA-3BB4B12E7E80.xcactivitylog</string>
+			<string>5C8C93EC-4AE6-4DC4-8494-BD657D323BB2.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1290,15 +916,15 @@
 			<key>signature</key>
 			<string>Build divitup</string>
 			<key>timeStartedRecording</key>
-			<real>652927190.60319996</real>
+			<real>652986296.333022</real>
 			<key>timeStoppedRecording</key>
-			<real>652927191.33507895</real>
+			<real>652986300.66307998</real>
 			<key>title</key>
 			<string>Build divitup</string>
 			<key>uniqueIdentifier</key>
-			<string>AEA17FEC-9080-4BC7-8CEA-3BB4B12E7E80</string>
+			<string>5C8C93EC-4AE6-4DC4-8494-BD657D323BB2</string>
 		</dict>
-		<key>B0F01D34-EE9B-4309-A4D0-8F030655E330</key>
+		<key>61B4C1DA-0E93-43EC-8B4B-800D2A9FE5EA</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1307,7 +933,41 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>B0F01D34-EE9B-4309-A4D0-8F030655E330.xcactivitylog</string>
+			<string>61B4C1DA-0E93-43EC-8B4B-800D2A9FE5EA.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>divitup project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>divitup</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build divitup</string>
+			<key>timeStartedRecording</key>
+			<real>652983327.09765005</real>
+			<key>timeStoppedRecording</key>
+			<real>652983327.46505797</real>
+			<key>title</key>
+			<string>Build divitup</string>
+			<key>uniqueIdentifier</key>
+			<string>61B4C1DA-0E93-43EC-8B4B-800D2A9FE5EA</string>
+		</dict>
+		<key>668C28F2-A7F2-4DEE-AFF3-2BE84A27FD94</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>668C28F2-A7F2-4DEE-AFF3-2BE84A27FD94.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1324,15 +984,15 @@
 			<key>signature</key>
 			<string>Build divitup</string>
 			<key>timeStartedRecording</key>
-			<real>652925769.60310304</real>
+			<real>652985079.84612596</real>
 			<key>timeStoppedRecording</key>
-			<real>652925769.787009</real>
+			<real>652985083.21257102</real>
 			<key>title</key>
 			<string>Build divitup</string>
 			<key>uniqueIdentifier</key>
-			<string>B0F01D34-EE9B-4309-A4D0-8F030655E330</string>
+			<string>668C28F2-A7F2-4DEE-AFF3-2BE84A27FD94</string>
 		</dict>
-		<key>B6F1CEAF-A6DD-4094-BB80-C2DE19124E21</key>
+		<key>66FC9369-819F-47E4-9E06-E4C8C0000356</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1341,7 +1001,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>B6F1CEAF-A6DD-4094-BB80-C2DE19124E21.xcactivitylog</string>
+			<string>66FC9369-819F-47E4-9E06-E4C8C0000356.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1358,15 +1018,15 @@
 			<key>signature</key>
 			<string>Build divitup</string>
 			<key>timeStartedRecording</key>
-			<real>652916618.67670596</real>
+			<real>652987286.30234301</real>
 			<key>timeStoppedRecording</key>
-			<real>652916619.37432599</real>
+			<real>652987287.23614001</real>
 			<key>title</key>
 			<string>Build divitup</string>
 			<key>uniqueIdentifier</key>
-			<string>B6F1CEAF-A6DD-4094-BB80-C2DE19124E21</string>
+			<string>66FC9369-819F-47E4-9E06-E4C8C0000356</string>
 		</dict>
-		<key>B9066BD9-9905-47A1-9FCC-DB8924BD2DA8</key>
+		<key>67DA33D0-635B-4CD8-AE9F-D66471773F5B</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1375,7 +1035,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>B9066BD9-9905-47A1-9FCC-DB8924BD2DA8.xcactivitylog</string>
+			<string>67DA33D0-635B-4CD8-AE9F-D66471773F5B.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1392,15 +1052,15 @@
 			<key>signature</key>
 			<string>Build divitup</string>
 			<key>timeStartedRecording</key>
-			<real>652916565.54616702</real>
+			<real>652940743.22738397</real>
 			<key>timeStoppedRecording</key>
-			<real>652916566.29765797</real>
+			<real>652940744.27853596</real>
 			<key>title</key>
 			<string>Build divitup</string>
 			<key>uniqueIdentifier</key>
-			<string>B9066BD9-9905-47A1-9FCC-DB8924BD2DA8</string>
+			<string>67DA33D0-635B-4CD8-AE9F-D66471773F5B</string>
 		</dict>
-		<key>C03877CF-A8E4-463A-90F2-47253E8E60A5</key>
+		<key>687EE386-B409-442B-89F3-571A76B3EDDE</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1409,7 +1069,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>C03877CF-A8E4-463A-90F2-47253E8E60A5.xcactivitylog</string>
+			<string>687EE386-B409-442B-89F3-571A76B3EDDE.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1426,15 +1086,15 @@
 			<key>signature</key>
 			<string>Build divitup</string>
 			<key>timeStartedRecording</key>
-			<real>652843029.93240905</real>
+			<real>652998718.59044504</real>
 			<key>timeStoppedRecording</key>
-			<real>652843030.90074205</real>
+			<real>652998719.61824703</real>
 			<key>title</key>
 			<string>Build divitup</string>
 			<key>uniqueIdentifier</key>
-			<string>C03877CF-A8E4-463A-90F2-47253E8E60A5</string>
+			<string>687EE386-B409-442B-89F3-571A76B3EDDE</string>
 		</dict>
-		<key>C16D85A2-04DF-450B-868E-D59A9C8326DD</key>
+		<key>6BA80B7A-DC27-4161-97A4-030BCAA7E6D1</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1443,7 +1103,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>C16D85A2-04DF-450B-868E-D59A9C8326DD.xcactivitylog</string>
+			<string>6BA80B7A-DC27-4161-97A4-030BCAA7E6D1.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1460,15 +1120,15 @@
 			<key>signature</key>
 			<string>Build divitup</string>
 			<key>timeStartedRecording</key>
-			<real>652925625.83323705</real>
+			<real>652937950.65727401</real>
 			<key>timeStoppedRecording</key>
-			<real>652925626.06210303</real>
+			<real>652937955.35012901</real>
 			<key>title</key>
 			<string>Build divitup</string>
 			<key>uniqueIdentifier</key>
-			<string>C16D85A2-04DF-450B-868E-D59A9C8326DD</string>
+			<string>6BA80B7A-DC27-4161-97A4-030BCAA7E6D1</string>
 		</dict>
-		<key>C1D1D8CE-9CFB-47BF-A152-166096D51E65</key>
+		<key>71E91968-1CCC-4565-A9E9-F0EBB0AD0A30</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1477,7 +1137,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>C1D1D8CE-9CFB-47BF-A152-166096D51E65.xcactivitylog</string>
+			<string>71E91968-1CCC-4565-A9E9-F0EBB0AD0A30.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1494,15 +1154,15 @@
 			<key>signature</key>
 			<string>Build divitup</string>
 			<key>timeStartedRecording</key>
-			<real>652906731.44376504</real>
+			<real>652986103.19443405</real>
 			<key>timeStoppedRecording</key>
-			<real>652906731.48981702</real>
+			<real>652986105.87614703</real>
 			<key>title</key>
 			<string>Build divitup</string>
 			<key>uniqueIdentifier</key>
-			<string>C1D1D8CE-9CFB-47BF-A152-166096D51E65</string>
+			<string>71E91968-1CCC-4565-A9E9-F0EBB0AD0A30</string>
 		</dict>
-		<key>C6132C05-3A85-4719-B3DC-B97DAF1CDBBA</key>
+		<key>7B2A32E4-2C5D-4AD6-898F-A7C325D10B98</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1511,7 +1171,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>C6132C05-3A85-4719-B3DC-B97DAF1CDBBA.xcactivitylog</string>
+			<string>7B2A32E4-2C5D-4AD6-898F-A7C325D10B98.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1528,15 +1188,15 @@
 			<key>signature</key>
 			<string>Build divitup</string>
 			<key>timeStartedRecording</key>
-			<real>652925606.34114099</real>
+			<real>652983122.67950201</real>
 			<key>timeStoppedRecording</key>
-			<real>652925606.57047403</real>
+			<real>652983123.75379395</real>
 			<key>title</key>
 			<string>Build divitup</string>
 			<key>uniqueIdentifier</key>
-			<string>C6132C05-3A85-4719-B3DC-B97DAF1CDBBA</string>
+			<string>7B2A32E4-2C5D-4AD6-898F-A7C325D10B98</string>
 		</dict>
-		<key>C65C462C-0273-4EF5-A215-3F06D35FB9E4</key>
+		<key>8AB2AB9C-8EF0-44E1-A605-4B2FC09809BB</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1545,7 +1205,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>C65C462C-0273-4EF5-A215-3F06D35FB9E4.xcactivitylog</string>
+			<string>8AB2AB9C-8EF0-44E1-A605-4B2FC09809BB.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1562,15 +1222,15 @@
 			<key>signature</key>
 			<string>Build divitup</string>
 			<key>timeStartedRecording</key>
-			<real>652925568.52229297</real>
+			<real>652986140.45063806</real>
 			<key>timeStoppedRecording</key>
-			<real>652925568.73166203</real>
+			<real>652986141.36367202</real>
 			<key>title</key>
 			<string>Build divitup</string>
 			<key>uniqueIdentifier</key>
-			<string>C65C462C-0273-4EF5-A215-3F06D35FB9E4</string>
+			<string>8AB2AB9C-8EF0-44E1-A605-4B2FC09809BB</string>
 		</dict>
-		<key>C8616EE6-3EE9-43AA-A4CB-6C320A5679B9</key>
+		<key>8AB3076A-3C82-422F-A6B9-1A84441B305D</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1579,7 +1239,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>C8616EE6-3EE9-43AA-A4CB-6C320A5679B9.xcactivitylog</string>
+			<string>8AB3076A-3C82-422F-A6B9-1A84441B305D.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1596,15 +1256,15 @@
 			<key>signature</key>
 			<string>Build divitup</string>
 			<key>timeStartedRecording</key>
-			<real>652910909.062976</real>
+			<real>652998807.14718997</real>
 			<key>timeStoppedRecording</key>
-			<real>652910911.11484003</real>
+			<real>652998808.48710096</real>
 			<key>title</key>
 			<string>Build divitup</string>
 			<key>uniqueIdentifier</key>
-			<string>C8616EE6-3EE9-43AA-A4CB-6C320A5679B9</string>
+			<string>8AB3076A-3C82-422F-A6B9-1A84441B305D</string>
 		</dict>
-		<key>CBB4B238-E36B-4E75-9F36-101E203BE20F</key>
+		<key>9E7BD258-A200-4F68-8962-DCF63F537A92</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1613,7 +1273,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>CBB4B238-E36B-4E75-9F36-101E203BE20F.xcactivitylog</string>
+			<string>9E7BD258-A200-4F68-8962-DCF63F537A92.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1630,15 +1290,15 @@
 			<key>signature</key>
 			<string>Build divitup</string>
 			<key>timeStartedRecording</key>
-			<real>652926977.23748004</real>
+			<real>652998696.32052505</real>
 			<key>timeStoppedRecording</key>
-			<real>652926978.07183397</real>
+			<real>652998696.39636803</real>
 			<key>title</key>
 			<string>Build divitup</string>
 			<key>uniqueIdentifier</key>
-			<string>CBB4B238-E36B-4E75-9F36-101E203BE20F</string>
+			<string>9E7BD258-A200-4F68-8962-DCF63F537A92</string>
 		</dict>
-		<key>CBED784D-5D5E-4A8D-B023-D6B6E4169CCA</key>
+		<key>A0DCD055-0149-4A1C-83AE-9B7ADEAECD55</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1647,7 +1307,41 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>CBED784D-5D5E-4A8D-B023-D6B6E4169CCA.xcactivitylog</string>
+			<string>A0DCD055-0149-4A1C-83AE-9B7ADEAECD55.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>divitup project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>divitup</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build divitup</string>
+			<key>timeStartedRecording</key>
+			<real>652980803.28617299</real>
+			<key>timeStoppedRecording</key>
+			<real>652980803.82784295</real>
+			<key>title</key>
+			<string>Build divitup</string>
+			<key>uniqueIdentifier</key>
+			<string>A0DCD055-0149-4A1C-83AE-9B7ADEAECD55</string>
+		</dict>
+		<key>A3DA7CCC-E7C9-4E58-8A83-1F90F759FBC3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A3DA7CCC-E7C9-4E58-8A83-1F90F759FBC3.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1664,15 +1358,15 @@
 			<key>signature</key>
 			<string>Build divitup</string>
 			<key>timeStartedRecording</key>
-			<real>652905948.15030301</real>
+			<real>652986471.90735996</real>
 			<key>timeStoppedRecording</key>
-			<real>652905948.21143603</real>
+			<real>652986472.76544094</real>
 			<key>title</key>
 			<string>Build divitup</string>
 			<key>uniqueIdentifier</key>
-			<string>CBED784D-5D5E-4A8D-B023-D6B6E4169CCA</string>
+			<string>A3DA7CCC-E7C9-4E58-8A83-1F90F759FBC3</string>
 		</dict>
-		<key>CD75B782-E373-4E78-8443-355F56B54D22</key>
+		<key>A4328DD3-3F8B-498D-83A2-2090BC4693A9</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1681,7 +1375,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>CD75B782-E373-4E78-8443-355F56B54D22.xcactivitylog</string>
+			<string>A4328DD3-3F8B-498D-83A2-2090BC4693A9.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1698,15 +1392,15 @@
 			<key>signature</key>
 			<string>Build divitup</string>
 			<key>timeStartedRecording</key>
-			<real>652841863.73877001</real>
+			<real>652986176.40044701</real>
 			<key>timeStoppedRecording</key>
-			<real>652841866.801144</real>
+			<real>652986177.64098096</real>
 			<key>title</key>
 			<string>Build divitup</string>
 			<key>uniqueIdentifier</key>
-			<string>CD75B782-E373-4E78-8443-355F56B54D22</string>
+			<string>A4328DD3-3F8B-498D-83A2-2090BC4693A9</string>
 		</dict>
-		<key>E1E82E19-F5D6-40A8-9EB3-101C63C3198A</key>
+		<key>A71EA121-23E2-4184-A82C-E8384B981090</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1715,7 +1409,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>E1E82E19-F5D6-40A8-9EB3-101C63C3198A.xcactivitylog</string>
+			<string>A71EA121-23E2-4184-A82C-E8384B981090.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1732,15 +1426,15 @@
 			<key>signature</key>
 			<string>Build divitup</string>
 			<key>timeStartedRecording</key>
-			<real>652841551.02934504</real>
+			<real>652941049.21486497</real>
 			<key>timeStoppedRecording</key>
-			<real>652841551.74895597</real>
+			<real>652941049.91222</real>
 			<key>title</key>
 			<string>Build divitup</string>
 			<key>uniqueIdentifier</key>
-			<string>E1E82E19-F5D6-40A8-9EB3-101C63C3198A</string>
+			<string>A71EA121-23E2-4184-A82C-E8384B981090</string>
 		</dict>
-		<key>F2552313-D873-40E7-A7B2-4A8457327E45</key>
+		<key>B6E1EF90-42BE-4F41-BA96-EEF192DC89C7</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1749,7 +1443,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>F2552313-D873-40E7-A7B2-4A8457327E45.xcactivitylog</string>
+			<string>B6E1EF90-42BE-4F41-BA96-EEF192DC89C7.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1766,15 +1460,15 @@
 			<key>signature</key>
 			<string>Build divitup</string>
 			<key>timeStartedRecording</key>
-			<real>652910431.52658498</real>
+			<real>652987751.76847899</real>
 			<key>timeStoppedRecording</key>
-			<real>652910432.23043799</real>
+			<real>652987752.68104005</real>
 			<key>title</key>
 			<string>Build divitup</string>
 			<key>uniqueIdentifier</key>
-			<string>F2552313-D873-40E7-A7B2-4A8457327E45</string>
+			<string>B6E1EF90-42BE-4F41-BA96-EEF192DC89C7</string>
 		</dict>
-		<key>F8430D39-1996-43E5-A59E-EEE7B1EEC476</key>
+		<key>BAC94515-F978-428C-8F7A-CBA32DBCECB2</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1783,7 +1477,41 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>F8430D39-1996-43E5-A59E-EEE7B1EEC476.xcactivitylog</string>
+			<string>BAC94515-F978-428C-8F7A-CBA32DBCECB2.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>divitup project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>divitup</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build divitup</string>
+			<key>timeStartedRecording</key>
+			<real>652982295.26517403</real>
+			<key>timeStoppedRecording</key>
+			<real>652982298.61174405</real>
+			<key>title</key>
+			<string>Build divitup</string>
+			<key>uniqueIdentifier</key>
+			<string>BAC94515-F978-428C-8F7A-CBA32DBCECB2</string>
+		</dict>
+		<key>BBAF028A-FD8E-4032-8EF9-61B037BE4984</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BBAF028A-FD8E-4032-8EF9-61B037BE4984.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1800,15 +1528,15 @@
 			<key>signature</key>
 			<string>Build divitup</string>
 			<key>timeStartedRecording</key>
-			<real>652842622.77531695</real>
+			<real>652987223.20537305</real>
 			<key>timeStoppedRecording</key>
-			<real>652842625.17404902</real>
+			<real>652987224.13694096</real>
 			<key>title</key>
 			<string>Build divitup</string>
 			<key>uniqueIdentifier</key>
-			<string>F8430D39-1996-43E5-A59E-EEE7B1EEC476</string>
+			<string>BBAF028A-FD8E-4032-8EF9-61B037BE4984</string>
 		</dict>
-		<key>FE8BC71B-62FA-48A5-AA88-2C35A6D14E52</key>
+		<key>BD5E93E5-9312-4818-9484-8FFB7F473B88</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1817,7 +1545,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>FE8BC71B-62FA-48A5-AA88-2C35A6D14E52.xcactivitylog</string>
+			<string>BD5E93E5-9312-4818-9484-8FFB7F473B88.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1834,15 +1562,15 @@
 			<key>signature</key>
 			<string>Build divitup</string>
 			<key>timeStartedRecording</key>
-			<real>652926470.60734105</real>
+			<real>652987299.61155796</real>
 			<key>timeStoppedRecording</key>
-			<real>652926473.40487301</real>
+			<real>652987300.54552197</real>
 			<key>title</key>
 			<string>Build divitup</string>
 			<key>uniqueIdentifier</key>
-			<string>FE8BC71B-62FA-48A5-AA88-2C35A6D14E52</string>
+			<string>BD5E93E5-9312-4818-9484-8FFB7F473B88</string>
 		</dict>
-		<key>FFD11799-4590-4173-8EC4-0E5D193F7C24</key>
+		<key>BEA14C81-5265-48A9-8228-5BBB42AF4E1D</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -1851,7 +1579,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>FFD11799-4590-4173-8EC4-0E5D193F7C24.xcactivitylog</string>
+			<string>BEA14C81-5265-48A9-8228-5BBB42AF4E1D.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1868,13 +1596,251 @@
 			<key>signature</key>
 			<string>Build divitup</string>
 			<key>timeStartedRecording</key>
-			<real>652926682.70850599</real>
+			<real>652983199.50912797</real>
 			<key>timeStoppedRecording</key>
-			<real>652926683.44248903</real>
+			<real>652983200.31087804</real>
 			<key>title</key>
 			<string>Build divitup</string>
 			<key>uniqueIdentifier</key>
-			<string>FFD11799-4590-4173-8EC4-0E5D193F7C24</string>
+			<string>BEA14C81-5265-48A9-8228-5BBB42AF4E1D</string>
+		</dict>
+		<key>BF9BCFF7-79BD-4B0B-8DF0-B53810D150FD</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BF9BCFF7-79BD-4B0B-8DF0-B53810D150FD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>divitup project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>divitup</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build divitup</string>
+			<key>timeStartedRecording</key>
+			<real>652986225.14971197</real>
+			<key>timeStoppedRecording</key>
+			<real>652986225.96439803</real>
+			<key>title</key>
+			<string>Build divitup</string>
+			<key>uniqueIdentifier</key>
+			<string>BF9BCFF7-79BD-4B0B-8DF0-B53810D150FD</string>
+		</dict>
+		<key>C60BDB16-6BD3-4C11-958C-0F7F885A54BF</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C60BDB16-6BD3-4C11-958C-0F7F885A54BF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>divitup project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>divitup</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build divitup</string>
+			<key>timeStartedRecording</key>
+			<real>652987316.88825703</real>
+			<key>timeStoppedRecording</key>
+			<real>652987317.82128894</real>
+			<key>title</key>
+			<string>Build divitup</string>
+			<key>uniqueIdentifier</key>
+			<string>C60BDB16-6BD3-4C11-958C-0F7F885A54BF</string>
+		</dict>
+		<key>CD0F99C9-F461-4CAB-86A5-3A4A42282C4F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>CD0F99C9-F461-4CAB-86A5-3A4A42282C4F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>divitup project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>divitup</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build divitup</string>
+			<key>timeStartedRecording</key>
+			<real>652984064.56501603</real>
+			<key>timeStoppedRecording</key>
+			<real>652984065.50769198</real>
+			<key>title</key>
+			<string>Build divitup</string>
+			<key>uniqueIdentifier</key>
+			<string>CD0F99C9-F461-4CAB-86A5-3A4A42282C4F</string>
+		</dict>
+		<key>D2BE4CA8-B64E-4394-8E58-14482E298132</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D2BE4CA8-B64E-4394-8E58-14482E298132.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>divitup project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>divitup</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build divitup</string>
+			<key>timeStartedRecording</key>
+			<real>652983519.98666096</real>
+			<key>timeStoppedRecording</key>
+			<real>652983520.83878696</real>
+			<key>title</key>
+			<string>Build divitup</string>
+			<key>uniqueIdentifier</key>
+			<string>D2BE4CA8-B64E-4394-8E58-14482E298132</string>
+		</dict>
+		<key>E09ABBB3-7F87-4BBE-B7F0-449282A7D588</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E09ABBB3-7F87-4BBE-B7F0-449282A7D588.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>divitup project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>divitup</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build divitup</string>
+			<key>timeStartedRecording</key>
+			<real>652987350.38292801</real>
+			<key>timeStoppedRecording</key>
+			<real>652987351.32119</real>
+			<key>title</key>
+			<string>Build divitup</string>
+			<key>uniqueIdentifier</key>
+			<string>E09ABBB3-7F87-4BBE-B7F0-449282A7D588</string>
+		</dict>
+		<key>EF19AF53-4A2C-4472-B5F1-1BB591D6FEDD</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>EF19AF53-4A2C-4472-B5F1-1BB591D6FEDD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>divitup project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>divitup</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build divitup</string>
+			<key>timeStartedRecording</key>
+			<real>652985594.43889499</real>
+			<key>timeStoppedRecording</key>
+			<real>652985596.23507595</real>
+			<key>title</key>
+			<string>Build divitup</string>
+			<key>uniqueIdentifier</key>
+			<string>EF19AF53-4A2C-4472-B5F1-1BB591D6FEDD</string>
+		</dict>
+		<key>FFCB3C2E-4083-441C-8F4A-E5CD0859C54B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FFCB3C2E-4083-441C-8F4A-E5CD0859C54B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>divitup project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>divitup</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build divitup</string>
+			<key>timeStartedRecording</key>
+			<real>652987467.02990401</real>
+			<key>timeStoppedRecording</key>
+			<real>652987467.95932603</real>
+			<key>title</key>
+			<string>Build divitup</string>
+			<key>uniqueIdentifier</key>
+			<string>FFCB3C2E-4083-441C-8F4A-E5CD0859C54B</string>
 		</dict>
 	</dict>
 </dict>

@@ -14,20 +14,29 @@ class ReceiptsViewController: UIViewController {
     
     
     @IBOutlet weak var tableView: UITableView!
+    let refreshControl = UIRefreshControl()
     
     var receipts:[Receipt]?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
 
         // Do any additional setup after loading the view.
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(UINib(nibName: "ReceiptTableViewCell", bundle: nil), forCellReuseIdentifier: "receiptCell")
         tableView.separatorStyle = .singleLine
+        tableView.refreshControl = refreshControl
+        refreshControl.addTarget(self, action: #selector(refresh), for: .valueChanged)
         
         //get receipts from core data
         fetchReceipts()
+    }
+    
+    @objc func refresh() {
+        fetchReceipts()
+        tableView.refreshControl?.endRefreshing()
     }
     
     func fetchReceipts() {
@@ -60,10 +69,12 @@ class ReceiptsViewController: UIViewController {
                 let newReceipt = Receipt(context: self.context)
                 newReceipt.name = textField.text
                 newReceipt.date = Date()
+                newReceipt.id = self.generateId()
                 
                 //save the data
                 do {
                     try self.context.save()
+                    print("new receipt created with id of \(newReceipt.id ?? "no id")")
                 }
                 catch {
                     fatalError("could not save the new receipt to the context")
@@ -122,10 +133,11 @@ extension ReceiptsViewController: UITableViewDelegate, UITableViewDataSource {
         
         //set the details of the receipt
         //get the number of items
-        let numberOfItems = 0
+        let numberOfItems = receipts![indexPath.row].items?.count
         //get the date in string format
         let stringDate = dateToString(receipt: receipts![indexPath.row])
-        cell.detailsLabel.text = "\(numberOfItems) items on \(stringDate)"
+        cell.detailsLabel.text = "\(numberOfItems ?? 0) items on \(stringDate)"
+        cell.totalLabel.text = String(format: "%.2f", receipts![indexPath.row].total)
         
         return cell
     }
@@ -155,5 +167,10 @@ extension ReceiptsViewController {
         dateFormatter.dateFormat = "MM/dd/YYYY"
         let stringDate = dateFormatter.string(from: receipt.date!)
         return stringDate
+    }
+    
+    func generateId() -> String {
+        let letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+        return String((0..<10).map{ _ in letters.randomElement()! })
     }
 }

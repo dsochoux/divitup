@@ -232,19 +232,39 @@ SWIFT_CLASS_NAMED("Item")
 @end
 
 
+@class Person;
+
+@interface Item (SWIFT_EXTENSION(divitup))
+- (void)addBuyersObject:(Person * _Nonnull)value;
+- (void)removeBuyersObject:(Person * _Nonnull)value;
+- (void)addBuyers:(NSSet * _Nonnull)values;
+- (void)removeBuyers:(NSSet * _Nonnull)values;
+@end
+
 @class NSString;
 @class Receipt;
 
 @interface Item (SWIFT_EXTENSION(divitup))
+@property (nonatomic, copy) NSString * _Nullable id;
 @property (nonatomic, copy) NSString * _Nullable name;
 @property (nonatomic) double price;
 @property (nonatomic) int64_t quantity;
-@property (nonatomic, copy) NSArray<NSString *> * _Nullable buyers;
+@property (nonatomic, strong) NSSet * _Nullable buyers;
 @property (nonatomic, strong) Receipt * _Nullable receipt;
 @end
 
 @class UILabel;
 @class NSCoder;
+
+SWIFT_CLASS("_TtC7divitup17ItemTableViewCell")
+@interface ItemTableViewCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified itemNameLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified itemPriceLabel;
+- (void)awakeFromNib;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UIButton;
 
 SWIFT_CLASS("_TtC7divitup15ItemsHeaderView")
@@ -267,11 +287,43 @@ SWIFT_CLASS("_TtC7divitup16PeopleHeaderView")
 @end
 
 
+SWIFT_CLASS_NAMED("Person")
+@interface Person : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+@interface Person (SWIFT_EXTENSION(divitup))
+- (void)addItemsObject:(Item * _Nonnull)value;
+- (void)removeItemsObject:(Item * _Nonnull)value;
+- (void)addItems:(NSSet * _Nonnull)values;
+- (void)removeItems:(NSSet * _Nonnull)values;
+@end
+
+
+@interface Person (SWIFT_EXTENSION(divitup))
+@property (nonatomic, copy) NSString * _Nullable id;
+@property (nonatomic, copy) NSString * _Nullable name;
+@property (nonatomic) double total;
+@property (nonatomic, strong) NSSet * _Nullable items;
+@property (nonatomic, strong) Receipt * _Nullable receipt;
+@end
+
+
 SWIFT_CLASS_NAMED("Receipt")
 @interface Receipt : NSManagedObject
 - (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+
+@interface Receipt (SWIFT_EXTENSION(divitup))
+- (void)addPeopleObject:(Person * _Nonnull)value;
+- (void)removePeopleObject:(Person * _Nonnull)value;
+- (void)addPeople:(NSSet * _Nonnull)values;
+- (void)removePeople:(NSSet * _Nonnull)values;
+@end
 
 
 @interface Receipt (SWIFT_EXTENSION(divitup))
@@ -285,9 +337,11 @@ SWIFT_CLASS_NAMED("Receipt")
 
 @interface Receipt (SWIFT_EXTENSION(divitup))
 @property (nonatomic, copy) NSDate * _Nullable date;
+@property (nonatomic, copy) NSString * _Nullable id;
 @property (nonatomic, copy) NSString * _Nullable name;
-@property (nonatomic, copy) NSArray<NSString *> * _Nullable people;
+@property (nonatomic) double total;
 @property (nonatomic, strong) NSSet * _Nullable items;
+@property (nonatomic, strong) NSSet * _Nullable people;
 @end
 
 
@@ -312,13 +366,14 @@ SWIFT_CLASS("_TtC7divitup21ReceiptViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
 @class NSIndexPath;
 
 @interface ReceiptViewController (SWIFT_EXTENSION(divitup)) <UITableViewDataSource, UITableViewDelegate>
 - (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
-- (NSString * _Nullable)tableView:(UITableView * _Nonnull)tableView titleForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UIView * _Nullable)tableView:(UITableView * _Nonnull)tableView viewForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
@@ -331,6 +386,7 @@ SWIFT_CLASS("_TtC7divitup22ReceiptsViewController")
 @interface ReceiptsViewController : UIViewController
 @property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
 - (void)viewDidLoad;
+- (void)refresh;
 - (IBAction)newReceiptPressed:(UIBarButtonItem * _Nonnull)sender;
 - (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
@@ -376,6 +432,15 @@ SWIFT_CLASS("_TtC7divitup19TaxesFeesHeaderView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (IBAction)addTaxfeeTapped:(UIButton * _Nonnull)sender;
+@end
+
+
+SWIFT_CLASS("_TtC7divitup18TotalTableViewCell")
+@interface TotalTableViewCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified totalLabel;
+- (void)awakeFromNib;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 #if __has_attribute(external_source_symbol)

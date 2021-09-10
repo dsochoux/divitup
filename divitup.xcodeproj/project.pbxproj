@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		304E9F2A26EAF47000F45B90 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304E9F2426EAF46F00F45B90 /* Person+CoreDataClass.swift */; };
+		304E9F2B26EAF47000F45B90 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304E9F2526EAF46F00F45B90 /* Person+CoreDataProperties.swift */; };
+		304E9F2E26EBC11100F45B90 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304E9F2C26EBC11100F45B90 /* ItemTableViewCell.swift */; };
+		304E9F2F26EBC11100F45B90 /* ItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 304E9F2D26EBC11100F45B90 /* ItemTableViewCell.xib */; };
+		304E9F3326EBC3F400F45B90 /* TotalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304E9F3126EBC3F400F45B90 /* TotalTableViewCell.swift */; };
+		304E9F3426EBC3F400F45B90 /* TotalTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 304E9F3226EBC3F400F45B90 /* TotalTableViewCell.xib */; };
+		304E9F3726EBC57500F45B90 /* Receipt+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304E9F3526EBC57500F45B90 /* Receipt+CoreDataClass.swift */; };
+		304E9F3826EBC57500F45B90 /* Receipt+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304E9F3626EBC57500F45B90 /* Receipt+CoreDataProperties.swift */; };
+		304E9F3B26EBCAE500F45B90 /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304E9F3926EBCAE500F45B90 /* Item+CoreDataClass.swift */; };
+		304E9F3C26EBCAE500F45B90 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304E9F3A26EBCAE500F45B90 /* Item+CoreDataProperties.swift */; };
 		30D9895C26E85A26001CC22E /* ReceiptsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D9895B26E85A26001CC22E /* ReceiptsViewController.swift */; };
 		30D9896126E8632C001CC22E /* ReceiptTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D9895F26E8632C001CC22E /* ReceiptTableViewCell.swift */; };
 		30D9896226E8632C001CC22E /* ReceiptTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30D9896026E8632C001CC22E /* ReceiptTableViewCell.xib */; };
 		30D9896C26E98833001CC22E /* ReceiptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D9896B26E98833001CC22E /* ReceiptViewController.swift */; };
 		30D9897626E997BD001CC22E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D9897526E997BD001CC22E /* SettingsViewController.swift */; };
-		30D9897D26EA793A001CC22E /* Receipt+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D9897926EA793A001CC22E /* Receipt+CoreDataClass.swift */; };
-		30D9897E26EA793A001CC22E /* Receipt+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D9897A26EA793A001CC22E /* Receipt+CoreDataProperties.swift */; };
-		30D9897F26EA793A001CC22E /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D9897B26EA793A001CC22E /* Item+CoreDataClass.swift */; };
-		30D9898026EA793A001CC22E /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D9897C26EA793A001CC22E /* Item+CoreDataProperties.swift */; };
 		30D9898526EAD76E001CC22E /* ItemsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D9898426EAD76E001CC22E /* ItemsHeaderView.swift */; };
 		30D9898726EAD77C001CC22E /* ItemsHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30D9898626EAD77C001CC22E /* ItemsHeaderView.xib */; };
 		30D9898A26EADD3C001CC22E /* PeopleHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D9898926EADD3C001CC22E /* PeopleHeaderView.swift */; };
@@ -31,15 +37,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		304E9F2426EAF46F00F45B90 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		304E9F2526EAF46F00F45B90 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		304E9F2C26EBC11100F45B90 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		304E9F2D26EBC11100F45B90 /* ItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemTableViewCell.xib; sourceTree = "<group>"; };
+		304E9F3126EBC3F400F45B90 /* TotalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalTableViewCell.swift; sourceTree = "<group>"; };
+		304E9F3226EBC3F400F45B90 /* TotalTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TotalTableViewCell.xib; sourceTree = "<group>"; };
+		304E9F3526EBC57500F45B90 /* Receipt+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Receipt+CoreDataClass.swift"; sourceTree = "<group>"; };
+		304E9F3626EBC57500F45B90 /* Receipt+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Receipt+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		304E9F3926EBCAE500F45B90 /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
+		304E9F3A26EBCAE500F45B90 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		30D9895B26E85A26001CC22E /* ReceiptsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptsViewController.swift; sourceTree = "<group>"; };
 		30D9895F26E8632C001CC22E /* ReceiptTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptTableViewCell.swift; sourceTree = "<group>"; };
 		30D9896026E8632C001CC22E /* ReceiptTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReceiptTableViewCell.xib; sourceTree = "<group>"; };
 		30D9896B26E98833001CC22E /* ReceiptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptViewController.swift; sourceTree = "<group>"; };
 		30D9897526E997BD001CC22E /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		30D9897926EA793A001CC22E /* Receipt+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Receipt+CoreDataClass.swift"; sourceTree = "<group>"; };
-		30D9897A26EA793A001CC22E /* Receipt+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Receipt+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		30D9897B26EA793A001CC22E /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
-		30D9897C26EA793A001CC22E /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		30D9898426EAD76E001CC22E /* ItemsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsHeaderView.swift; sourceTree = "<group>"; };
 		30D9898626EAD77C001CC22E /* ItemsHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemsHeaderView.xib; sourceTree = "<group>"; };
 		30D9898926EADD3C001CC22E /* PeopleHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleHeaderView.swift; sourceTree = "<group>"; };
@@ -67,9 +79,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		304E9F3026EBC3E600F45B90 /* Total */ = {
+			isa = PBXGroup;
+			children = (
+				304E9F3126EBC3F400F45B90 /* TotalTableViewCell.swift */,
+				304E9F3226EBC3F400F45B90 /* TotalTableViewCell.xib */,
+			);
+			path = Total;
+			sourceTree = "<group>";
+		};
 		3063238E26E85616003C42CE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				304E9F3026EBC3E600F45B90 /* Total */,
 				30D9898D26EADF44001CC22E /* TaxesFees */,
 				30D9898826EADD2A001CC22E /* People */,
 				30D9898326EAD757001CC22E /* Items */,
@@ -86,6 +108,8 @@
 			children = (
 				30D9898426EAD76E001CC22E /* ItemsHeaderView.swift */,
 				30D9898626EAD77C001CC22E /* ItemsHeaderView.xib */,
+				304E9F2C26EBC11100F45B90 /* ItemTableViewCell.swift */,
+				304E9F2D26EBC11100F45B90 /* ItemTableViewCell.xib */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -142,10 +166,12 @@
 		30E8CAE126E81594000E6079 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				30D9897926EA793A001CC22E /* Receipt+CoreDataClass.swift */,
-				30D9897A26EA793A001CC22E /* Receipt+CoreDataProperties.swift */,
-				30D9897B26EA793A001CC22E /* Item+CoreDataClass.swift */,
-				30D9897C26EA793A001CC22E /* Item+CoreDataProperties.swift */,
+				304E9F3926EBCAE500F45B90 /* Item+CoreDataClass.swift */,
+				304E9F3A26EBCAE500F45B90 /* Item+CoreDataProperties.swift */,
+				304E9F3526EBC57500F45B90 /* Receipt+CoreDataClass.swift */,
+				304E9F3626EBC57500F45B90 /* Receipt+CoreDataProperties.swift */,
+				304E9F2426EAF46F00F45B90 /* Person+CoreDataClass.swift */,
+				304E9F2526EAF46F00F45B90 /* Person+CoreDataProperties.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -217,7 +243,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				304E9F2F26EBC11100F45B90 /* ItemTableViewCell.xib in Resources */,
 				30D9898C26EADD49001CC22E /* PeopleHeaderView.xib in Resources */,
+				304E9F3426EBC3F400F45B90 /* TotalTableViewCell.xib in Resources */,
 				30D9896226E8632C001CC22E /* ReceiptTableViewCell.xib in Resources */,
 				30D9899126EADF76001CC22E /* TaxesFeesHeaderView.xib in Resources */,
 				30E8CAD226E812FC000E6079 /* LaunchScreen.storyboard in Resources */,
@@ -234,20 +262,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30D9897F26EA793A001CC22E /* Item+CoreDataClass.swift in Sources */,
+				304E9F3B26EBCAE500F45B90 /* Item+CoreDataClass.swift in Sources */,
 				30D9895C26E85A26001CC22E /* ReceiptsViewController.swift in Sources */,
+				304E9F2A26EAF47000F45B90 /* Person+CoreDataClass.swift in Sources */,
 				30D9898A26EADD3C001CC22E /* PeopleHeaderView.swift in Sources */,
 				30D9898526EAD76E001CC22E /* ItemsHeaderView.swift in Sources */,
 				30D9897626E997BD001CC22E /* SettingsViewController.swift in Sources */,
+				304E9F3C26EBCAE500F45B90 /* Item+CoreDataProperties.swift in Sources */,
 				30E8CACD26E812FA000E6079 /* divitup.xcdatamodeld in Sources */,
+				304E9F3826EBC57500F45B90 /* Receipt+CoreDataProperties.swift in Sources */,
 				30D9896126E8632C001CC22E /* ReceiptTableViewCell.swift in Sources */,
 				30D9896C26E98833001CC22E /* ReceiptViewController.swift in Sources */,
+				304E9F3726EBC57500F45B90 /* Receipt+CoreDataClass.swift in Sources */,
+				304E9F2B26EAF47000F45B90 /* Person+CoreDataProperties.swift in Sources */,
 				30D9898F26EADF69001CC22E /* TaxesFeesHeaderView.swift in Sources */,
+				304E9F3326EBC3F400F45B90 /* TotalTableViewCell.swift in Sources */,
 				30E8CAC326E812FA000E6079 /* AppDelegate.swift in Sources */,
-				30D9897D26EA793A001CC22E /* Receipt+CoreDataClass.swift in Sources */,
+				304E9F2E26EBC11100F45B90 /* ItemTableViewCell.swift in Sources */,
 				30E8CAC526E812FA000E6079 /* SceneDelegate.swift in Sources */,
-				30D9898026EA793A001CC22E /* Item+CoreDataProperties.swift in Sources */,
-				30D9897E26EA793A001CC22E /* Receipt+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

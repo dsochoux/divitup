@@ -2,7 +2,7 @@
 //  Receipt+CoreDataProperties.swift
 //  divitup
 //
-//  Created by danny sochoux on 9/9/21.
+//  Created by danny sochoux on 9/10/21.
 //
 //
 
@@ -17,9 +17,11 @@ extension Receipt {
     }
 
     @NSManaged public var date: Date?
+    @NSManaged public var id: String?
     @NSManaged public var name: String?
-    @NSManaged public var people: [String]?
+    @NSManaged public var total: Double
     @NSManaged public var items: NSSet?
+    @NSManaged public var people: NSSet?
 
 }
 
@@ -37,6 +39,23 @@ extension Receipt {
 
     @objc(removeItems:)
     @NSManaged public func removeFromItems(_ values: NSSet)
+
+}
+
+// MARK: Generated accessors for people
+extension Receipt {
+
+    @objc(addPeopleObject:)
+    @NSManaged public func addToPeople(_ value: Person)
+
+    @objc(removePeopleObject:)
+    @NSManaged public func removeFromPeople(_ value: Person)
+
+    @objc(addPeople:)
+    @NSManaged public func addToPeople(_ values: NSSet)
+
+    @objc(removePeople:)
+    @NSManaged public func removeFromPeople(_ values: NSSet)
 
 }
 

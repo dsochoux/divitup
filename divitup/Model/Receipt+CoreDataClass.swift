@@ -2,7 +2,7 @@
 //  Receipt+CoreDataClass.swift
 //  divitup
 //
-//  Created by danny sochoux on 9/9/21.
+//  Created by danny sochoux on 9/10/21.
 //
 //
 
