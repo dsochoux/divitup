@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ap0-3D-u0M">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Settings-->
+        <scene sceneID="Wd2-hE-cNg">
+            <objects>
+                <navigationController id="cbB-9b-qya" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Settings" image="gear" catalog="system" id="zJd-ZJ-kuV"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="q4t-rv-g1l">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="mcQ-E8-KM6" kind="relationship" relationship="rootViewController" id="Gxt-om-Eph"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vgg-YA-Bnu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="421" y="114"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="OAR-Qk-clb">
+            <objects>
+                <viewController id="mcQ-E8-KM6" customClass="SettingsViewController" customModule="divitup" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9mx-oE-DLN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="rh8-rN-BCX"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Settings" id="FJ2-Dv-eFB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DmN-K2-TE1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1180" y="114"/>
+        </scene>
+        <!--Receipts-->
+        <scene sceneID="nPG-Ni-H4z">
+            <objects>
+                <viewController id="A9r-yR-P7O" customClass="ReceiptsViewController" customModule="divitup" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="26v-nU-oVH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="mHK-mD-kCy">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="fAX-uj-eyi"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="mHK-mD-kCy" firstAttribute="leading" secondItem="fAX-uj-eyi" secondAttribute="leading" id="HGZ-VP-dxJ"/>
+                            <constraint firstItem="mHK-mD-kCy" firstAttribute="top" secondItem="fAX-uj-eyi" secondAttribute="top" id="flX-kn-yiX"/>
+                            <constraint firstItem="fAX-uj-eyi" firstAttribute="trailing" secondItem="mHK-mD-kCy" secondAttribute="trailing" id="hQG-DZ-dqM"/>
+                            <constraint firstItem="fAX-uj-eyi" firstAttribute="bottom" secondItem="mHK-mD-kCy" secondAttribute="bottom" id="mN7-Vg-7am"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Receipts" id="010-jp-vJY">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="W1D-7I-L8a">
+                            <connections>
+                                <action selector="newReceiptPressed:" destination="A9r-yR-P7O" id="KK0-KR-zRA"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="mHK-mD-kCy" id="TuH-Hx-pP5"/>
+                        <segue destination="FkO-xh-NTL" kind="show" identifier="receiptSegue" id="a9i-zx-GtQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EB9-2c-8ts" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1089.8550724637682" y="865.84821428571422"/>
+        </scene>
+        <!--Viewing Receipt-->
+        <scene sceneID="Dfz-dU-DFj">
+            <objects>
+                <viewController id="FkO-xh-NTL" customClass="ReceiptViewController" customModule="divitup" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jtu-Re-tcl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="DHi-ZU-Zq5">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="FbV-TC-aX2"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="FbV-TC-aX2" firstAttribute="bottom" secondItem="DHi-ZU-Zq5" secondAttribute="bottom" id="0G2-ch-IEB"/>
+                            <constraint firstItem="DHi-ZU-Zq5" firstAttribute="top" secondItem="FbV-TC-aX2" secondAttribute="top" id="Ah3-wo-Fer"/>
+                            <constraint firstItem="FbV-TC-aX2" firstAttribute="trailing" secondItem="DHi-ZU-Zq5" secondAttribute="trailing" id="Ka1-tD-83o"/>
+                            <constraint firstItem="DHi-ZU-Zq5" firstAttribute="leading" secondItem="FbV-TC-aX2" secondAttribute="leading" id="meB-ng-PgA"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Viewing Receipt" id="ndw-dT-LA5">
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="calendar" catalog="system" id="ONs-Y8-gbc"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="DHi-ZU-Zq5" id="z1g-Re-CIe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aZw-Of-Ofz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1909" y="866"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="FI7-Tv-qEb">
+            <objects>
+                <tabBarController id="ap0-3D-u0M" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2cK-GS-ssg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="CND-Pu-NLb" kind="relationship" relationship="viewControllers" id="Yhu-dm-Bx9"/>
+                        <segue destination="cbB-9b-qya" kind="relationship" relationship="viewControllers" id="OlW-JH-YMK"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kDM-At-8kn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-616" y="561"/>
+        </scene>
+        <!--Receipts-->
+        <scene sceneID="liJ-JE-wy1">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="CND-Pu-NLb" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Receipts" image="dollarsign.square" catalog="system" id="XzD-1m-PkS"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="qsK-Qi-LxW">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="A9r-yR-P7O" kind="relationship" relationship="rootViewController" id="qyh-m2-WCm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tCn-TD-2cd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="194" y="866"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="calendar" catalog="system" width="128" height="106"/>
+        <image name="dollarsign.square" catalog="system" width="128" height="114"/>
+        <image name="gear" catalog="system" width="128" height="119"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

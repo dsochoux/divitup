@@ -1,0 +1,17 @@
+version: "Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)"
+options: "464c60e89ba1a8e1c2a1771f4612e4b9"
+build_time: [1631234403, 317974000]
+inputs:
+  "/Users/danny/Documents/code/swift/divitup/divitup/Model/Item+CoreDataClass.swift": [1631207865, 948169507]
+  "/Users/danny/Documents/code/swift/divitup/divitup/Controller/ReceiptsViewController.swift": [1631148018, 354773142]
+  "/Users/danny/Documents/code/swift/divitup/divitup/View/People/PeopleHeaderView.swift": [1631233746, 516882907]
+  "/Users/danny/Documents/code/swift/divitup/divitup/View/Items/ItemsHeaderView.swift": [1631233730, 876284601]
+  "/Users/danny/Documents/code/swift/divitup/divitup/Controller/SettingsViewController.swift": [1631150141, 341189655]
+  "/Users/danny/Documents/code/swift/divitup/divitup/View/ReceiptTableViewCell.swift": [1631109723, 910708205]
+  "/Users/danny/Documents/code/swift/divitup/divitup/Controller/ReceiptViewController.swift": [1631234402, 696691308]
+  "/Users/danny/Documents/code/swift/divitup/divitup/View/TaxesFees/TaxesFeesHeaderView.swift": [1631234175, 314783348]
+  "/Users/danny/Documents/code/swift/divitup/divitup/AppDelegate.swift": [1631050618, 85351258]
+  "/Users/danny/Documents/code/swift/divitup/divitup/Model/Receipt+CoreDataClass.swift": [1631207865, 946248577]
+  "/Users/danny/Documents/code/swift/divitup/divitup/SceneDelegate.swift": [1631050618, 89788346]
+  "/Users/danny/Documents/code/swift/divitup/divitup/Model/Item+CoreDataProperties.swift": [1631207865, 949144282]
+  "/Users/danny/Documents/code/swift/divitup/divitup/Model/Receipt+CoreDataProperties.swift": [1631207865, 947466786]
