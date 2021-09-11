@@ -80,6 +80,7 @@ class ItemsHeaderView: UIView {
         
         alert.addTextField { alertTextField in
             alertTextField.placeholder = "name"
+            alertTextField.autocapitalizationType = .words
             nameTextField = alertTextField
         }
         alert.addTextField { alertTextField in

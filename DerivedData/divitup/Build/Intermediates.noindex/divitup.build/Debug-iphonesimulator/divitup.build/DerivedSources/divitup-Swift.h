@@ -287,6 +287,7 @@ SWIFT_CLASS("_TtC7divitup16PeopleHeaderView")
 @end
 
 
+
 SWIFT_CLASS_NAMED("Person")
 @interface Person : NSManagedObject
 - (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
@@ -311,6 +312,16 @@ SWIFT_CLASS_NAMED("Person")
 @end
 
 
+SWIFT_CLASS("_TtC7divitup19PersonTableViewCell")
+@interface PersonTableViewCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified nameLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified totalLabel;
+- (void)awakeFromNib;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS_NAMED("Receipt")
 @interface Receipt : NSManagedObject
 - (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
@@ -319,18 +330,18 @@ SWIFT_CLASS_NAMED("Receipt")
 
 
 @interface Receipt (SWIFT_EXTENSION(divitup))
-- (void)addPeopleObject:(Person * _Nonnull)value;
-- (void)removePeopleObject:(Person * _Nonnull)value;
-- (void)addPeople:(NSSet * _Nonnull)values;
-- (void)removePeople:(NSSet * _Nonnull)values;
-@end
-
-
-@interface Receipt (SWIFT_EXTENSION(divitup))
 - (void)addItemsObject:(Item * _Nonnull)value;
 - (void)removeItemsObject:(Item * _Nonnull)value;
 - (void)addItems:(NSSet * _Nonnull)values;
 - (void)removeItems:(NSSet * _Nonnull)values;
+@end
+
+
+@interface Receipt (SWIFT_EXTENSION(divitup))
+- (void)addPeopleObject:(Person * _Nonnull)value;
+- (void)removePeopleObject:(Person * _Nonnull)value;
+- (void)addPeople:(NSSet * _Nonnull)values;
+- (void)removePeople:(NSSet * _Nonnull)values;
 @end
 
 @class NSDate;
@@ -356,12 +367,14 @@ SWIFT_CLASS("_TtC7divitup20ReceiptTableViewCell")
 @end
 
 @class UITableView;
+@class UIStoryboardSegue;
 @class NSBundle;
 
 SWIFT_CLASS("_TtC7divitup21ReceiptViewController")
 @interface ReceiptViewController : UIViewController
 @property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
 - (void)viewDidLoad;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -374,15 +387,16 @@ SWIFT_CLASS("_TtC7divitup21ReceiptViewController")
 - (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UIView * _Nullable)tableView:(UITableView * _Nonnull)tableView viewForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nullable)tableView:(UITableView * _Nonnull)tableView titleForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)tableView:(UITableView * _Nonnull)tableView canEditRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (UISwipeActionsConfiguration * _Nullable)tableView:(UITableView * _Nonnull)tableView trailingSwipeActionsConfigurationForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 @end
 
 @class UIBarButtonItem;
-@class UIStoryboardSegue;
 
 SWIFT_CLASS("_TtC7divitup22ReceiptsViewController")
 @interface ReceiptsViewController : UIViewController
@@ -434,6 +448,35 @@ SWIFT_CLASS("_TtC7divitup19TaxesFeesHeaderView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (IBAction)addTaxfeeTapped:(UIButton * _Nonnull)sender;
+@end
+
+
+SWIFT_CLASS("_TtC7divitup26ToggleBuyersViewController")
+@interface ToggleBuyersViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified itemLabel;
+@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface ToggleBuyersViewController (SWIFT_EXTENSION(divitup)) <UITableViewDataSource, UITableViewDelegate>
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
+@class UISwitch;
+
+SWIFT_CLASS("_TtC7divitup19ToggleTableViewCell")
+@interface ToggleTableViewCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified nameLabel;
+@property (nonatomic, weak) IBOutlet UISwitch * _Null_unspecified buySwitch;
+- (void)awakeFromNib;
+- (IBAction)toggle:(UISwitch * _Nonnull)sender;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 

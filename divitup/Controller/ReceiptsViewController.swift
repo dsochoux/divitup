@@ -94,7 +94,7 @@ class ReceiptsViewController: UIViewController {
         //add the text field
         alert.addTextField { alertTextField in
             alertTextField.placeholder = "e.g \"Costco\""
-            alertTextField.autocapitalizationType = .sentences
+            alertTextField.autocapitalizationType = .words
             textField = alertTextField
         }
         

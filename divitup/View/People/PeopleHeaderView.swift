@@ -46,6 +46,7 @@ class PeopleHeaderView: UIView {
                 //create new person and add them to the receipt
                 let newPerson = Person(context: self.context)
                 newPerson.name = textField.text
+                newPerson.id = self.generateId()
                 self.receipt?.addToPeople(newPerson)
                 do {
                     try self.context.save()
@@ -59,11 +60,20 @@ class PeopleHeaderView: UIView {
         }
         let cancelAction = UIAlertAction(title: "Cancel", style: .default, handler: nil)
         alert.addTextField { alertTextField in
+            alertTextField.autocapitalizationType = .words
             textField = alertTextField
+            
         }
         alert.addAction(cancelAction)
         alert.addAction(action)
         
         receiptVC?.present(alert, animated: true, completion: nil)
+    }
+}
+
+extension PeopleHeaderView {
+    func generateId() -> String {
+        let letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+        return String((0..<10).map{ _ in letters.randomElement()! })
     }
 }

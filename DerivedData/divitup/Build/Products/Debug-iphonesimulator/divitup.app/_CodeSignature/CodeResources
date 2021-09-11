@@ -16,29 +16,37 @@
 		<data>
 		w3+vlZbDudvssl62tcWepgrq0ss=
 		</data>
+		<key>Base.lproj/Main.storyboardc/5fw-UO-dIt-view-AjU-x9-VU1.nib</key>
+		<data>
+		ZcTrX9sszfo2k/VE2u8I2TNQ0T8=
+		</data>
 		<key>Base.lproj/Main.storyboardc/A9r-yR-P7O-view-26v-nU-oVH.nib</key>
 		<data>
-		PTnAx5i1+u3VnhgT4X7ESM26Ynk=
+		r6H5O8o9uxYx7IMbdkYQbP9EQA4=
 		</data>
 		<key>Base.lproj/Main.storyboardc/FkO-xh-NTL-view-Jtu-Re-tcl.nib</key>
 		<data>
-		fDLj25kKjHd+aibJvLJ2vzGxprU=
+		Dt3Rw9/UYioDfA6lrTjW8DbcauI=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		sgB1VRjjn9D6rOJn1tkcYZLF5v4=
+		8eFBhQVMFf6IPtkSzCaUUxIUjdM=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UITabBarController-ap0-3D-u0M.nib</key>
 		<data>
-		dTPPFC0jGh8j7msRtVXuZuRCEqg=
+		j1V5/4MvLoHgueB0s7KikOlngnI=
+		</data>
+		<key>Base.lproj/Main.storyboardc/UIViewController-5fw-UO-dIt.nib</key>
+		<data>
+		FqfKfhVEdGJrbSnBtn1RhqzLRlo=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-FkO-xh-NTL.nib</key>
 		<data>
-		or0iCMfiq0yV36NsuM3hrgTVZW0=
+		2f7587RDmYqpBE1/Xwu4lksH/Rg=
 		</data>
 		<key>Base.lproj/Main.storyboardc/mcQ-E8-KM6-view-9mx-oE-DLN.nib</key>
 		<data>
-		vpgaOFzVmXZYyIiUZtG3ZmfstVE=
+		zF0U7QGHAufIZSeF9hVus7aFqhQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -46,7 +54,7 @@
 		</data>
 		<key>ItemTableViewCell.nib</key>
 		<data>
-		B9dhTUox7DN5EjTMKvHS3GnCYfI=
+		BouN4XwCNOsPTTlsnaJIvB1GkvQ=
 		</data>
 		<key>ItemsHeaderView.nib</key>
 		<data>
@@ -55,6 +63,10 @@
 		<key>PeopleHeaderView.nib</key>
 		<data>
 		AXzyoYRp4x+Sffw22aUsCpi98Mo=
+		</data>
+		<key>PersonTableViewCell.nib</key>
+		<data>
+		rGzpKfs2YyPgyRrKH2RtmdZ5yHI=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -68,9 +80,13 @@
 		<data>
 		2KnEQZOfFh0KDISIyWgqYwerElk=
 		</data>
+		<key>ToggleTableViewCell.nib</key>
+		<data>
+		M+gG5joS4g5Gvl6AC7pqrRtagBo=
+		</data>
 		<key>TotalTableViewCell.nib</key>
 		<data>
-		+0Ueko8Sa4y7ZvC67U11nyBx+Vw=
+		jR8Go5UQCNYP2tzEVLtmgxLTZ54=
 		</data>
 		<key>divitup.momd/VersionInfo.plist</key>
 		<data>
@@ -108,53 +124,67 @@
 			/j/eXe38wWMXhDOLD6AnwASfqtO8KgfAOwbLzH4jrqg=
 			</data>
 		</dict>
+		<key>Base.lproj/Main.storyboardc/5fw-UO-dIt-view-AjU-x9-VU1.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gr1/fbRCxaA3AYUieQ7PTST00kZXfwRJRCkf06Igv4A=
+			</data>
+		</dict>
 		<key>Base.lproj/Main.storyboardc/A9r-yR-P7O-view-26v-nU-oVH.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0HL2HJyPwKL1DwEM4JuQK72xoylzj45x28ejl4CkSlI=
+			w71kYubRMPOw8qaJwmDQPGq29f0m540yibJZpEgFWvA=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/FkO-xh-NTL-view-Jtu-Re-tcl.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yAV6ALynT1Ro60fmBhtojEbe1Oi27d6sTtpR/b4ihLg=
+			J3aQAJK+KGl/nfoS5SIOoByq5bHilwxtjS5I6nnIpeA=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rcBHjIpFgGA2bTqH0vsoN1ivZO8sCpyRCfu22R+BMJw=
+			MEWsVCFZ4BTgjkEBG64cf1QHUayiyrKbzJfRHJUWv0Q=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UITabBarController-ap0-3D-u0M.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aw0TST+U4C2JoSNw5M9Rj9A3crAF+8KimilKqMIhR5A=
+			8AWAH+P13DxZHuGSMg6ok56QLtB3R3ZC0bBEBs1cLdw=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-5fw-UO-dIt.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wtf+E4XDR9jP7i4ARHX7b/e0StGPRn6uvNyx7i12PGs=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UIViewController-FkO-xh-NTL.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+GB/+ZnJ6QuSlqdf/brEfYT5mqD3J83Pya5SyTpuyTc=
+			wOomf4ejvXV3WRTfGIrITuFYCeDuJ3cAgSgnVh5pCnI=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/mcQ-E8-KM6-view-9mx-oE-DLN.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			upFafN6CF/6yl3UEt1rJufowoD+LDChyUZbntDJNPFA=
+			eDcngkSVVXpFj76GvY5ljO6ANYlAFAkRXMfKrGOIzFg=
 			</data>
 		</dict>
 		<key>ItemTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/Pp4qELdRd4hGakbjRWMQl5z5cR8/5qgFyY6TExcXcw=
+			7J8/2VbRhZVXhx+1oISnvIvweQB2UtAKYhfRou4IfHo=
 			</data>
 		</dict>
 		<key>ItemsHeaderView.nib</key>
@@ -171,6 +201,13 @@
 			KTu0NLdhLCvVMy4hVFXNAJukx6uY8303JnKhntXDvhc=
 			</data>
 		</dict>
+		<key>PersonTableViewCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vP1RC8qoG438vcrbe8MTBp02DP3qYKAT1b7esFcJ1n4=
+			</data>
+		</dict>
 		<key>ReceiptTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
@@ -185,11 +222,18 @@
 			U2HReSjQYluF654UVAgqKBGRuSTt+dyx5B2Vl0ecetc=
 			</data>
 		</dict>
+		<key>ToggleTableViewCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			n0QgE12KWhcVovSd5j+Vm10lAg6Mj2zOZLyPWfKhU/Q=
+			</data>
+		</dict>
 		<key>TotalTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qb46mISOspdy/VJkD4ZwS7QN+9dy79O5kOnGvVc6Hiw=
+			rodYg8jwcYrwj+M0AKxMG80Kqv8Mn39L7MFBskxDsRQ=
 			</data>
 		</dict>
 		<key>divitup.momd/VersionInfo.plist</key>

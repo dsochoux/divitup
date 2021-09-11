@@ -106,11 +106,61 @@
                     </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="DHi-ZU-Zq5" id="z1g-Re-CIe"/>
+                        <segue destination="5fw-UO-dIt" kind="presentation" identifier="toggleBuyers" modalPresentationStyle="automatic" id="VCe-4t-1iL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aZw-Of-Ofz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1909" y="866"/>
+        </scene>
+        <!--Toggle Buyers View Controller-->
+        <scene sceneID="hEo-kb-apg">
+            <objects>
+                <viewController id="5fw-UO-dIt" customClass="ToggleBuyersViewController" customModule="divitup" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AjU-x9-VU1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="LYf-0A-fZD">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UaL-Cb-Ibj">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="dmr-Re-I1t"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="M6T-9L-sGC">
+                                        <rect key="frame" x="0.0" y="70" width="414" height="772"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </tableView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="UaL-Cb-Ibj" firstAttribute="leading" secondItem="LYf-0A-fZD" secondAttribute="leading" id="Vgz-eA-SbX"/>
+                                    <constraint firstAttribute="trailing" secondItem="UaL-Cb-Ibj" secondAttribute="trailing" id="zPz-59-Pyi"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ZPz-XZ-cTq"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="LYf-0A-fZD" firstAttribute="leading" secondItem="ZPz-XZ-cTq" secondAttribute="leading" id="7PV-ZY-BG4"/>
+                            <constraint firstItem="LYf-0A-fZD" firstAttribute="trailing" secondItem="ZPz-XZ-cTq" secondAttribute="trailing" id="EFx-Z4-BCp"/>
+                            <constraint firstItem="LYf-0A-fZD" firstAttribute="top" secondItem="ZPz-XZ-cTq" secondAttribute="top" id="fP9-Xm-BbL"/>
+                            <constraint firstAttribute="bottom" secondItem="LYf-0A-fZD" secondAttribute="bottom" id="wiD-RO-lpg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="itemLabel" destination="UaL-Cb-Ibj" id="c58-hx-k29"/>
+                        <outlet property="tableView" destination="M6T-9L-sGC" id="rMO-yZ-uQH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eSu-xR-cMA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1908.6956521739132" y="1584.375"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="FI7-Tv-qEb">

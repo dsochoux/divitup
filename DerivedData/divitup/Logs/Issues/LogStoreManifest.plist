@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>F60C9E16-458D-4C22-A4E5-9C0DFF7C3A23</key>
+		<key>EC350191-D994-410B-9DB8-59CDCFE73574</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>F60C9E16-458D-4C22-A4E5-9C0DFF7C3A23.xcactivitylog</string>
+			<string>EC350191-D994-410B-9DB8-59CDCFE73574.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -26,13 +26,13 @@
 			<key>signature</key>
 			<string>divitup-czleikrrjcoqvmgpdyttlqxqkjev</string>
 			<key>timeStartedRecording</key>
-			<real>653000888.67380404</real>
+			<real>653084709.63785303</real>
 			<key>timeStoppedRecording</key>
-			<real>653000889.59568703</real>
+			<real>653084710.68469596</real>
 			<key>title</key>
 			<string>Build target divitup</string>
 			<key>uniqueIdentifier</key>
-			<string>F60C9E16-458D-4C22-A4E5-9C0DFF7C3A23</string>
+			<string>EC350191-D994-410B-9DB8-59CDCFE73574</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

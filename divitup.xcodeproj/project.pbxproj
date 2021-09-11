@@ -17,6 +17,11 @@
 		304E9F3826EBC57500F45B90 /* Receipt+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304E9F3626EBC57500F45B90 /* Receipt+CoreDataProperties.swift */; };
 		304E9F3B26EBCAE500F45B90 /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304E9F3926EBCAE500F45B90 /* Item+CoreDataClass.swift */; };
 		304E9F3C26EBCAE500F45B90 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304E9F3A26EBCAE500F45B90 /* Item+CoreDataProperties.swift */; };
+		304E9F3F26ED2D0A00F45B90 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304E9F3D26ED2D0A00F45B90 /* PersonTableViewCell.swift */; };
+		304E9F4026ED2D0A00F45B90 /* PersonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 304E9F3E26ED2D0A00F45B90 /* PersonTableViewCell.xib */; };
+		304E9F4326ED306B00F45B90 /* ToggleBuyersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304E9F4226ED306B00F45B90 /* ToggleBuyersViewController.swift */; };
+		304E9F4726ED312900F45B90 /* ToggleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304E9F4526ED312900F45B90 /* ToggleTableViewCell.swift */; };
+		304E9F4826ED312900F45B90 /* ToggleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 304E9F4626ED312900F45B90 /* ToggleTableViewCell.xib */; };
 		30D9895C26E85A26001CC22E /* ReceiptsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D9895B26E85A26001CC22E /* ReceiptsViewController.swift */; };
 		30D9896126E8632C001CC22E /* ReceiptTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D9895F26E8632C001CC22E /* ReceiptTableViewCell.swift */; };
 		30D9896226E8632C001CC22E /* ReceiptTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30D9896026E8632C001CC22E /* ReceiptTableViewCell.xib */; };
@@ -47,6 +52,11 @@
 		304E9F3626EBC57500F45B90 /* Receipt+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Receipt+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		304E9F3926EBCAE500F45B90 /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
 		304E9F3A26EBCAE500F45B90 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		304E9F3D26ED2D0A00F45B90 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
+		304E9F3E26ED2D0A00F45B90 /* PersonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonTableViewCell.xib; sourceTree = "<group>"; };
+		304E9F4226ED306B00F45B90 /* ToggleBuyersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleBuyersViewController.swift; sourceTree = "<group>"; };
+		304E9F4526ED312900F45B90 /* ToggleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleTableViewCell.swift; sourceTree = "<group>"; };
+		304E9F4626ED312900F45B90 /* ToggleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ToggleTableViewCell.xib; sourceTree = "<group>"; };
 		30D9895B26E85A26001CC22E /* ReceiptsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptsViewController.swift; sourceTree = "<group>"; };
 		30D9895F26E8632C001CC22E /* ReceiptTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptTableViewCell.swift; sourceTree = "<group>"; };
 		30D9896026E8632C001CC22E /* ReceiptTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReceiptTableViewCell.xib; sourceTree = "<group>"; };
@@ -88,9 +98,27 @@
 			path = Total;
 			sourceTree = "<group>";
 		};
+		304E9F4126ED302F00F45B90 /* Toggle */ = {
+			isa = PBXGroup;
+			children = (
+				304E9F4226ED306B00F45B90 /* ToggleBuyersViewController.swift */,
+			);
+			path = Toggle;
+			sourceTree = "<group>";
+		};
+		304E9F4426ED310E00F45B90 /* Toggle */ = {
+			isa = PBXGroup;
+			children = (
+				304E9F4526ED312900F45B90 /* ToggleTableViewCell.swift */,
+				304E9F4626ED312900F45B90 /* ToggleTableViewCell.xib */,
+			);
+			path = Toggle;
+			sourceTree = "<group>";
+		};
 		3063238E26E85616003C42CE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				304E9F4426ED310E00F45B90 /* Toggle */,
 				304E9F3026EBC3E600F45B90 /* Total */,
 				30D9898D26EADF44001CC22E /* TaxesFees */,
 				30D9898826EADD2A001CC22E /* People */,
@@ -119,6 +147,8 @@
 			children = (
 				30D9898926EADD3C001CC22E /* PeopleHeaderView.swift */,
 				30D9898B26EADD49001CC22E /* PeopleHeaderView.xib */,
+				304E9F3D26ED2D0A00F45B90 /* PersonTableViewCell.swift */,
+				304E9F3E26ED2D0A00F45B90 /* PersonTableViewCell.xib */,
 			);
 			path = People;
 			sourceTree = "<group>";
@@ -179,6 +209,7 @@
 		30E8CAE226E81798000E6079 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				304E9F4126ED302F00F45B90 /* Toggle */,
 				30D9896B26E98833001CC22E /* ReceiptViewController.swift */,
 				30D9895B26E85A26001CC22E /* ReceiptsViewController.swift */,
 				30D9897526E997BD001CC22E /* SettingsViewController.swift */,
@@ -247,9 +278,11 @@
 				30D9898C26EADD49001CC22E /* PeopleHeaderView.xib in Resources */,
 				304E9F3426EBC3F400F45B90 /* TotalTableViewCell.xib in Resources */,
 				30D9896226E8632C001CC22E /* ReceiptTableViewCell.xib in Resources */,
+				304E9F4026ED2D0A00F45B90 /* PersonTableViewCell.xib in Resources */,
 				30D9899126EADF76001CC22E /* TaxesFeesHeaderView.xib in Resources */,
 				30E8CAD226E812FC000E6079 /* LaunchScreen.storyboard in Resources */,
 				30E8CACF26E812FC000E6079 /* Assets.xcassets in Resources */,
+				304E9F4826ED312900F45B90 /* ToggleTableViewCell.xib in Resources */,
 				30E8CACA26E812FA000E6079 /* Main.storyboard in Resources */,
 				30D9898726EAD77C001CC22E /* ItemsHeaderView.xib in Resources */,
 			);
@@ -262,6 +295,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				304E9F3F26ED2D0A00F45B90 /* PersonTableViewCell.swift in Sources */,
+				304E9F4726ED312900F45B90 /* ToggleTableViewCell.swift in Sources */,
 				304E9F3B26EBCAE500F45B90 /* Item+CoreDataClass.swift in Sources */,
 				30D9895C26E85A26001CC22E /* ReceiptsViewController.swift in Sources */,
 				304E9F2A26EAF47000F45B90 /* Person+CoreDataClass.swift in Sources */,
@@ -277,6 +312,7 @@
 				304E9F2B26EAF47000F45B90 /* Person+CoreDataProperties.swift in Sources */,
 				30D9898F26EADF69001CC22E /* TaxesFeesHeaderView.swift in Sources */,
 				304E9F3326EBC3F400F45B90 /* TotalTableViewCell.swift in Sources */,
+				304E9F4326ED306B00F45B90 /* ToggleBuyersViewController.swift in Sources */,
 				30E8CAC326E812FA000E6079 /* AppDelegate.swift in Sources */,
 				304E9F2E26EBC11100F45B90 /* ItemTableViewCell.swift in Sources */,
 				30E8CAC526E812FA000E6079 /* SceneDelegate.swift in Sources */,
