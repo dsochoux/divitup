@@ -1,0 +1,58 @@
+{
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "668b0ce3f803a71ee2a9f7af0805dbb1bf7cdf0f055bd8a4f7b802dec9efe1aa"
+    }
+  ],
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos14.5",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "arm64v8",
+        "arm64",
+        "armv8"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/danny/Documents/code/swift/divitup/DerivedData/divitup/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/danny/Documents/code/swift/divitup/DerivedData/divitup/Build/Products",
+      "derivedDataPath" : "/Users/danny/Documents/code/swift/divitup/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/danny/Documents/code/swift/divitup/DerivedData/divitup/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/danny/Documents/code/swift/divitup/DerivedData/divitup/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/danny/Documents/code/swift/divitup/DerivedData/divitup/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone10,6",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "14.7.1",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "ENABLE_PREVIEWS" : "NO",
+          "TARGET_DEVICE_IDENTIFIER" : "a57a1847d2e7ac4253b9f328a5a3ddfc46fef64d",
+          "TARGET_DEVICE_MODEL" : "iPhone10,6",
+          "TARGET_DEVICE_OS_VERSION" : "14.7.1",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphoneos"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

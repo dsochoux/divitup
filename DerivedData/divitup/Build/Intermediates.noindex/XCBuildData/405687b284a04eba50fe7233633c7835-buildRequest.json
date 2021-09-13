@@ -1,0 +1,57 @@
+{
+  "buildCommand" : "prepareForIndexing",
+  "configuredTargets" : [
+    {
+      "guid" : "668b0ce3f803a71ee2a9f7af0805dbb1bf7cdf0f055bd8a4f7b802dec9efe1aa"
+    }
+  ],
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64e",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : true,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos14.5",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "armv4t",
+        "armv5",
+        "armv6",
+        "armv7",
+        "armv7f",
+        "armv7s",
+        "armv7k",
+        "arm64",
+        "arm64e"
+      ],
+      "targetArchitecture" : "arm64e"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/danny/Documents/code/swift/divitup/DerivedData/divitup/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/danny/Documents/code/swift/divitup/DerivedData/divitup/Build/Products",
+      "derivedDataPath" : "/Users/danny/Documents/code/swift/divitup/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/danny/Documents/code/swift/divitup/DerivedData/divitup/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/danny/Documents/code/swift/divitup/DerivedData/divitup/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/danny/Documents/code/swift/divitup/DerivedData/divitup/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

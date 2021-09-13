@@ -17,7 +17,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" translatesAutoresizingMaskIntoConstraints="NO" id="nCb-Sj-JVY">
-                        <rect key="frame" x="10" y="10" width="274.5" height="185"/>
+                        <rect key="frame" x="20" y="10" width="254.5" height="185"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="aez-0c-Cr7">
                                 <rect key="frame" x="0.0" y="0.0" width="152" height="185"/>
@@ -37,7 +37,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="Lk9-HF-Din">
-                                <rect key="frame" x="222.5" y="0.0" width="52" height="185"/>
+                                <rect key="frame" x="202.5" y="0.0" width="52" height="185"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZWb-12-f98">
                                         <rect key="frame" x="0.0" y="0.0" width="52" height="185"/>
@@ -52,9 +52,9 @@
                 </subviews>
                 <constraints>
                     <constraint firstItem="nCb-Sj-JVY" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="5DN-b8-20B"/>
-                    <constraint firstItem="nCb-Sj-JVY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="nYK-2H-SNL"/>
+                    <constraint firstItem="nCb-Sj-JVY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="nYK-2H-SNL"/>
                     <constraint firstAttribute="bottom" secondItem="nCb-Sj-JVY" secondAttribute="bottom" constant="10" id="nfv-4a-cGP"/>
-                    <constraint firstAttribute="trailing" secondItem="nCb-Sj-JVY" secondAttribute="trailing" constant="10" id="tZr-l8-amx"/>
+                    <constraint firstAttribute="trailing" secondItem="nCb-Sj-JVY" secondAttribute="trailing" constant="20" id="tZr-l8-amx"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>

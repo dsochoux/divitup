@@ -4,9 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<data>
+		u4S63LkdwDA1ccd1dFDiuSuS+qs=
+		</data>
+		<key>Assets.car</key>
+		<data>
+		N5cMpcXPOYN/Kn2giRdHs1wfVfQ=
+		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		8w8piCk6guxXUTk10yiwh/xc3f8=
+		JW36ttMDnkgBwI3hI2WGw+jSNtE=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -14,59 +22,71 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		w3+vlZbDudvssl62tcWepgrq0ss=
+		vTCf1O5uCWDI+d0eseUHE9FKAZc=
 		</data>
 		<key>Base.lproj/Main.storyboardc/5fw-UO-dIt-view-AjU-x9-VU1.nib</key>
 		<data>
-		ZcTrX9sszfo2k/VE2u8I2TNQ0T8=
+		y756Ol9mrdukMcS2hIMiSKL0hIY=
 		</data>
 		<key>Base.lproj/Main.storyboardc/A9r-yR-P7O-view-26v-nU-oVH.nib</key>
 		<data>
-		r6H5O8o9uxYx7IMbdkYQbP9EQA4=
+		LLX7E5pAXD4wN5egTpiOcNJ7fPw=
 		</data>
 		<key>Base.lproj/Main.storyboardc/FkO-xh-NTL-view-Jtu-Re-tcl.nib</key>
 		<data>
-		Dt3Rw9/UYioDfA6lrTjW8DbcauI=
+		d1hrvGtWKoVsPQifFMCVG4WlC6w=
+		</data>
+		<key>Base.lproj/Main.storyboardc/IkS-dF-Ap5-view-n70-F9-ALI.nib</key>
+		<data>
+		h8GakccJ4ljmWN5zk4ZrJXnx9eM=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		8eFBhQVMFf6IPtkSzCaUUxIUjdM=
+		NVQBkkK9uDoVmyOHxfwneanl8wc=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UITabBarController-ap0-3D-u0M.nib</key>
 		<data>
-		j1V5/4MvLoHgueB0s7KikOlngnI=
+		F7gQRmvGNCf/CCCNovaucdB4Tuw=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-5fw-UO-dIt.nib</key>
 		<data>
-		FqfKfhVEdGJrbSnBtn1RhqzLRlo=
+		+N2bsyj5E08of7PZSJLHIJD0D3s=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-FkO-xh-NTL.nib</key>
 		<data>
-		2f7587RDmYqpBE1/Xwu4lksH/Rg=
+		Puf9JpOqgqzIzL1YOPijWkk/lGQ=
+		</data>
+		<key>Base.lproj/Main.storyboardc/UIViewController-IkS-dF-Ap5.nib</key>
+		<data>
+		e5obk+qxDrrEFf5r8yl0tjYSgo0=
 		</data>
 		<key>Base.lproj/Main.storyboardc/mcQ-E8-KM6-view-9mx-oE-DLN.nib</key>
 		<data>
-		zF0U7QGHAufIZSeF9hVus7aFqhQ=
+		+EkBJ26NIZZaFl1j5UHcR7pQx9g=
+		</data>
+		<key>DoneTableViewCell.nib</key>
+		<data>
+		ppj0UfTuI4yqNguSy97Fi7/IUrw=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		I3Rg5REYNJWLGktFORswbBD3tWg=
+		YeiVYkk4Jwf1bLfmbNmEHnnE/+o=
 		</data>
 		<key>ItemTableViewCell.nib</key>
 		<data>
-		BouN4XwCNOsPTTlsnaJIvB1GkvQ=
+		rWgu2K1pxe42hybDorGkOKsjdK4=
 		</data>
 		<key>ItemsHeaderView.nib</key>
 		<data>
-		oSJyKpAJ/4aRScgn69yU/e/rm5Y=
+		2rFae3C3k/cCOw8fpMDgHvB1DTM=
 		</data>
 		<key>PeopleHeaderView.nib</key>
 		<data>
-		AXzyoYRp4x+Sffw22aUsCpi98Mo=
+		98E0FrVNnw3Cyqe6H0yp0VgjOKM=
 		</data>
 		<key>PersonTableViewCell.nib</key>
 		<data>
-		rGzpKfs2YyPgyRrKH2RtmdZ5yHI=
+		DUEHDKst81rgM0+kEFWzkkmMjmE=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -74,19 +94,19 @@
 		</data>
 		<key>ReceiptTableViewCell.nib</key>
 		<data>
-		QDxMGOQSopKZ0qRNOt3KmQhXpAQ=
-		</data>
-		<key>TaxesFeesHeaderView.nib</key>
-		<data>
-		2KnEQZOfFh0KDISIyWgqYwerElk=
+		AJPe86m6qx8zlwRLdDT4IqnM7h8=
 		</data>
 		<key>ToggleTableViewCell.nib</key>
 		<data>
-		M+gG5joS4g5Gvl6AC7pqrRtagBo=
+		d1M6VDmtI1I0jzS1yf0FgITWSyY=
+		</data>
+		<key>TotalHeaderView.nib</key>
+		<data>
+		AWDjS7yFGt+ftLOJZUffJcHdIZY=
 		</data>
 		<key>TotalTableViewCell.nib</key>
 		<data>
-		jR8Go5UQCNYP2tzEVLtmgxLTZ54=
+		zUz92DTxllp5um8eTF7f87goUkc=
 		</data>
 		<key>divitup.momd/VersionInfo.plist</key>
 		<data>
@@ -103,11 +123,25 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			968QBWjOoWgkSVxr5BP4pfDnRtZYlzU3pOp/74n/YTo=
+			</data>
+		</dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HNWxWqX/R4OvSUJ9voeA/MqNzv9sgT9sOZKKuYObEnM=
+			</data>
+		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fPjS7vapQEd13zCAFuOqvROKPmqiAaSArWIEyAi0rw8=
+			hNDjKpNaNPYzEZkVgwMzyeThK4OPUvBXblD9yphzbzU=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -121,119 +155,140 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/j/eXe38wWMXhDOLD6AnwASfqtO8KgfAOwbLzH4jrqg=
+			7pXBMpgyM7+xhFcbeTK/Kp81obKjMut8YTfk3Z5gu1g=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/5fw-UO-dIt-view-AjU-x9-VU1.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gr1/fbRCxaA3AYUieQ7PTST00kZXfwRJRCkf06Igv4A=
+			k6yNhERTBHOewfAU4CgVZaK9U1ySlX/qpEnPEFX/wi0=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/A9r-yR-P7O-view-26v-nU-oVH.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			w71kYubRMPOw8qaJwmDQPGq29f0m540yibJZpEgFWvA=
+			S8JMqDX0JmCSOX4qkyj/dwhTyfhRBzPwshldiSP+nQc=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/FkO-xh-NTL-view-Jtu-Re-tcl.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			J3aQAJK+KGl/nfoS5SIOoByq5bHilwxtjS5I6nnIpeA=
+			yaQtsxQMHqF8oOGpxbS2HI6BIICxLh9WmMr8PDmcf7Y=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/IkS-dF-Ap5-view-n70-F9-ALI.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4kdkKHo6zYJweZmvO6RpUtYG5da90f+oz56wHsCW3gQ=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MEWsVCFZ4BTgjkEBG64cf1QHUayiyrKbzJfRHJUWv0Q=
+			5l6v1grIg95Po0prMoNOnMVk5lafeeicwimQf1pzpRs=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UITabBarController-ap0-3D-u0M.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8AWAH+P13DxZHuGSMg6ok56QLtB3R3ZC0bBEBs1cLdw=
+			iNZFyPMRVNsmwg17707KVIEmIQEHhIIX1xF3DgUEFmI=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UIViewController-5fw-UO-dIt.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wtf+E4XDR9jP7i4ARHX7b/e0StGPRn6uvNyx7i12PGs=
+			+1oNVmapNimf0wQ6H9+7BWjHbTRurEQinFsd5EAfn78=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UIViewController-FkO-xh-NTL.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wOomf4ejvXV3WRTfGIrITuFYCeDuJ3cAgSgnVh5pCnI=
+			OYsyKqr1Dr0HiM2b+wA4/PhO7c5rwWpNDIRtHXlPGfY=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-IkS-dF-Ap5.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			x+Wij0vD+iMLPMTKme42cO1xhw+qdZWZQ/wHiQwJUm8=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/mcQ-E8-KM6-view-9mx-oE-DLN.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eDcngkSVVXpFj76GvY5ljO6ANYlAFAkRXMfKrGOIzFg=
+			CsbIbewCElqUVWhULeuq6AH6ulfnJOY8AUwXb3oJIE8=
+			</data>
+		</dict>
+		<key>DoneTableViewCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zjHCFythr2aIz3RNIee5SZBkf16ngC9ziNLP2noBviI=
 			</data>
 		</dict>
 		<key>ItemTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7J8/2VbRhZVXhx+1oISnvIvweQB2UtAKYhfRou4IfHo=
+			0EBfxEoa7BALT9FDANs0gnT5w+FOMXiVTtfxwpxNnso=
 			</data>
 		</dict>
 		<key>ItemsHeaderView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q94YvukEGreHQRvrFHGtyV5pNcw7E+z/DSrB1zqnFw4=
+			sC1fDWIoT2TN31OTtMi3vx5gBnp+D4PN4NXxBtA2voQ=
 			</data>
 		</dict>
 		<key>PeopleHeaderView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KTu0NLdhLCvVMy4hVFXNAJukx6uY8303JnKhntXDvhc=
+			MIjFhnHSZ52Imo5cEtvJVtZcChpbip5XzHVP/8v+Y3I=
 			</data>
 		</dict>
 		<key>PersonTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vP1RC8qoG438vcrbe8MTBp02DP3qYKAT1b7esFcJ1n4=
+			4uXNZr5uEFAEwzawKswEqixGoU+ow3wNNNXLEsOocx4=
 			</data>
 		</dict>
 		<key>ReceiptTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TXtjSRJU5CSltdCoZ5yKR4kD8PIIv9w8SGrLpgbSvUQ=
-			</data>
-		</dict>
-		<key>TaxesFeesHeaderView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			U2HReSjQYluF654UVAgqKBGRuSTt+dyx5B2Vl0ecetc=
+			b8a7UySXFE5BhBb7CovHdTLnGGXS2NQy+Mwxoi/ArTs=
 			</data>
 		</dict>
 		<key>ToggleTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			n0QgE12KWhcVovSd5j+Vm10lAg6Mj2zOZLyPWfKhU/Q=
+			fkw8N1atsKZE+Q4oLVMN+byNMAcAA7/6T6MVDBEPgyE=
+			</data>
+		</dict>
+		<key>TotalHeaderView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EXX4vnI8lQQQJMN19+fkiALCKR9KS7mfC89hBuZUcU4=
 			</data>
 		</dict>
 		<key>TotalTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rodYg8jwcYrwj+M0AKxMG80Kqv8Mn39L7MFBskxDsRQ=
+			BY4yvwo9T08fySFR2y7iyVJjKzmsylnHZTYbgdjfRmU=
 			</data>
 		</dict>
 		<key>divitup.momd/VersionInfo.plist</key>

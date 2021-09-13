@@ -22,6 +22,11 @@
 		304E9F4326ED306B00F45B90 /* ToggleBuyersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304E9F4226ED306B00F45B90 /* ToggleBuyersViewController.swift */; };
 		304E9F4726ED312900F45B90 /* ToggleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304E9F4526ED312900F45B90 /* ToggleTableViewCell.swift */; };
 		304E9F4826ED312900F45B90 /* ToggleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 304E9F4626ED312900F45B90 /* ToggleTableViewCell.xib */; };
+		304E9F4C26EE64E800F45B90 /* DoneTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304E9F4A26EE64E800F45B90 /* DoneTableViewCell.swift */; };
+		304E9F4D26EE64E800F45B90 /* DoneTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 304E9F4B26EE64E800F45B90 /* DoneTableViewCell.xib */; };
+		304E9F5326EE684500F45B90 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304E9F5226EE684500F45B90 /* DatePickerViewController.swift */; };
+		304E9F5526EE6C4F00F45B90 /* TotalHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304E9F5426EE6C4F00F45B90 /* TotalHeaderView.swift */; };
+		304E9F5726EE6C5A00F45B90 /* TotalHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 304E9F5626EE6C5A00F45B90 /* TotalHeaderView.xib */; };
 		30D9895C26E85A26001CC22E /* ReceiptsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D9895B26E85A26001CC22E /* ReceiptsViewController.swift */; };
 		30D9896126E8632C001CC22E /* ReceiptTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D9895F26E8632C001CC22E /* ReceiptTableViewCell.swift */; };
 		30D9896226E8632C001CC22E /* ReceiptTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30D9896026E8632C001CC22E /* ReceiptTableViewCell.xib */; };
@@ -31,8 +36,6 @@
 		30D9898726EAD77C001CC22E /* ItemsHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30D9898626EAD77C001CC22E /* ItemsHeaderView.xib */; };
 		30D9898A26EADD3C001CC22E /* PeopleHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D9898926EADD3C001CC22E /* PeopleHeaderView.swift */; };
 		30D9898C26EADD49001CC22E /* PeopleHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30D9898B26EADD49001CC22E /* PeopleHeaderView.xib */; };
-		30D9898F26EADF69001CC22E /* TaxesFeesHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D9898E26EADF69001CC22E /* TaxesFeesHeaderView.swift */; };
-		30D9899126EADF76001CC22E /* TaxesFeesHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30D9899026EADF76001CC22E /* TaxesFeesHeaderView.xib */; };
 		30E8CAC326E812FA000E6079 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E8CAC226E812FA000E6079 /* AppDelegate.swift */; };
 		30E8CAC526E812FA000E6079 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E8CAC426E812FA000E6079 /* SceneDelegate.swift */; };
 		30E8CACA26E812FA000E6079 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E8CAC826E812FA000E6079 /* Main.storyboard */; };
@@ -57,6 +60,11 @@
 		304E9F4226ED306B00F45B90 /* ToggleBuyersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleBuyersViewController.swift; sourceTree = "<group>"; };
 		304E9F4526ED312900F45B90 /* ToggleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleTableViewCell.swift; sourceTree = "<group>"; };
 		304E9F4626ED312900F45B90 /* ToggleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ToggleTableViewCell.xib; sourceTree = "<group>"; };
+		304E9F4A26EE64E800F45B90 /* DoneTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneTableViewCell.swift; sourceTree = "<group>"; };
+		304E9F4B26EE64E800F45B90 /* DoneTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DoneTableViewCell.xib; sourceTree = "<group>"; };
+		304E9F5226EE684500F45B90 /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		304E9F5426EE6C4F00F45B90 /* TotalHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalHeaderView.swift; sourceTree = "<group>"; };
+		304E9F5626EE6C5A00F45B90 /* TotalHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TotalHeaderView.xib; sourceTree = "<group>"; };
 		30D9895B26E85A26001CC22E /* ReceiptsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptsViewController.swift; sourceTree = "<group>"; };
 		30D9895F26E8632C001CC22E /* ReceiptTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptTableViewCell.swift; sourceTree = "<group>"; };
 		30D9896026E8632C001CC22E /* ReceiptTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReceiptTableViewCell.xib; sourceTree = "<group>"; };
@@ -66,8 +74,6 @@
 		30D9898626EAD77C001CC22E /* ItemsHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemsHeaderView.xib; sourceTree = "<group>"; };
 		30D9898926EADD3C001CC22E /* PeopleHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleHeaderView.swift; sourceTree = "<group>"; };
 		30D9898B26EADD49001CC22E /* PeopleHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PeopleHeaderView.xib; sourceTree = "<group>"; };
-		30D9898E26EADF69001CC22E /* TaxesFeesHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxesFeesHeaderView.swift; sourceTree = "<group>"; };
-		30D9899026EADF76001CC22E /* TaxesFeesHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaxesFeesHeaderView.xib; sourceTree = "<group>"; };
 		30E8CABF26E812FA000E6079 /* divitup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = divitup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30E8CAC226E812FA000E6079 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30E8CAC426E812FA000E6079 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +100,8 @@
 			children = (
 				304E9F3126EBC3F400F45B90 /* TotalTableViewCell.swift */,
 				304E9F3226EBC3F400F45B90 /* TotalTableViewCell.xib */,
+				304E9F5426EE6C4F00F45B90 /* TotalHeaderView.swift */,
+				304E9F5626EE6C5A00F45B90 /* TotalHeaderView.xib */,
 			);
 			path = Total;
 			sourceTree = "<group>";
@@ -115,12 +123,53 @@
 			path = Toggle;
 			sourceTree = "<group>";
 		};
+		304E9F4926EE64D900F45B90 /* Done */ = {
+			isa = PBXGroup;
+			children = (
+				304E9F4A26EE64E800F45B90 /* DoneTableViewCell.swift */,
+				304E9F4B26EE64E800F45B90 /* DoneTableViewCell.xib */,
+			);
+			path = Done;
+			sourceTree = "<group>";
+		};
+		304E9F4E26EE676200F45B90 /* Receipt */ = {
+			isa = PBXGroup;
+			children = (
+				30D9896B26E98833001CC22E /* ReceiptViewController.swift */,
+			);
+			path = Receipt;
+			sourceTree = "<group>";
+		};
+		304E9F4F26EE676D00F45B90 /* Receipts */ = {
+			isa = PBXGroup;
+			children = (
+				30D9895B26E85A26001CC22E /* ReceiptsViewController.swift */,
+			);
+			path = Receipts;
+			sourceTree = "<group>";
+		};
+		304E9F5026EE67A900F45B90 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				30D9897526E997BD001CC22E /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		304E9F5126EE683200F45B90 /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				304E9F5226EE684500F45B90 /* DatePickerViewController.swift */,
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
 		3063238E26E85616003C42CE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				304E9F4926EE64D900F45B90 /* Done */,
 				304E9F4426ED310E00F45B90 /* Toggle */,
 				304E9F3026EBC3E600F45B90 /* Total */,
-				30D9898D26EADF44001CC22E /* TaxesFees */,
 				30D9898826EADD2A001CC22E /* People */,
 				30D9898326EAD757001CC22E /* Items */,
 				30E8CAD026E812FC000E6079 /* LaunchScreen.storyboard */,
@@ -151,15 +200,6 @@
 				304E9F3E26ED2D0A00F45B90 /* PersonTableViewCell.xib */,
 			);
 			path = People;
-			sourceTree = "<group>";
-		};
-		30D9898D26EADF44001CC22E /* TaxesFees */ = {
-			isa = PBXGroup;
-			children = (
-				30D9898E26EADF69001CC22E /* TaxesFeesHeaderView.swift */,
-				30D9899026EADF76001CC22E /* TaxesFeesHeaderView.xib */,
-			);
-			path = TaxesFees;
 			sourceTree = "<group>";
 		};
 		30E8CAB626E812F9000E6079 = {
@@ -209,10 +249,11 @@
 		30E8CAE226E81798000E6079 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				304E9F5126EE683200F45B90 /* Date */,
 				304E9F4126ED302F00F45B90 /* Toggle */,
-				30D9896B26E98833001CC22E /* ReceiptViewController.swift */,
-				30D9895B26E85A26001CC22E /* ReceiptsViewController.swift */,
-				30D9897526E997BD001CC22E /* SettingsViewController.swift */,
+				304E9F4E26EE676200F45B90 /* Receipt */,
+				304E9F4F26EE676D00F45B90 /* Receipts */,
+				304E9F5026EE67A900F45B90 /* Settings */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -278,13 +319,14 @@
 				30D9898C26EADD49001CC22E /* PeopleHeaderView.xib in Resources */,
 				304E9F3426EBC3F400F45B90 /* TotalTableViewCell.xib in Resources */,
 				30D9896226E8632C001CC22E /* ReceiptTableViewCell.xib in Resources */,
+				304E9F5726EE6C5A00F45B90 /* TotalHeaderView.xib in Resources */,
 				304E9F4026ED2D0A00F45B90 /* PersonTableViewCell.xib in Resources */,
-				30D9899126EADF76001CC22E /* TaxesFeesHeaderView.xib in Resources */,
 				30E8CAD226E812FC000E6079 /* LaunchScreen.storyboard in Resources */,
 				30E8CACF26E812FC000E6079 /* Assets.xcassets in Resources */,
 				304E9F4826ED312900F45B90 /* ToggleTableViewCell.xib in Resources */,
 				30E8CACA26E812FA000E6079 /* Main.storyboard in Resources */,
 				30D9898726EAD77C001CC22E /* ItemsHeaderView.xib in Resources */,
+				304E9F4D26EE64E800F45B90 /* DoneTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,12 +350,14 @@
 				304E9F3826EBC57500F45B90 /* Receipt+CoreDataProperties.swift in Sources */,
 				30D9896126E8632C001CC22E /* ReceiptTableViewCell.swift in Sources */,
 				30D9896C26E98833001CC22E /* ReceiptViewController.swift in Sources */,
+				304E9F5526EE6C4F00F45B90 /* TotalHeaderView.swift in Sources */,
 				304E9F3726EBC57500F45B90 /* Receipt+CoreDataClass.swift in Sources */,
 				304E9F2B26EAF47000F45B90 /* Person+CoreDataProperties.swift in Sources */,
-				30D9898F26EADF69001CC22E /* TaxesFeesHeaderView.swift in Sources */,
 				304E9F3326EBC3F400F45B90 /* TotalTableViewCell.swift in Sources */,
+				304E9F4C26EE64E800F45B90 /* DoneTableViewCell.swift in Sources */,
 				304E9F4326ED306B00F45B90 /* ToggleBuyersViewController.swift in Sources */,
 				30E8CAC326E812FA000E6079 /* AppDelegate.swift in Sources */,
+				304E9F5326EE684500F45B90 /* DatePickerViewController.swift in Sources */,
 				304E9F2E26EBC11100F45B90 /* ItemTableViewCell.swift in Sources */,
 				30E8CAC526E812FA000E6079 /* SceneDelegate.swift in Sources */,
 			);

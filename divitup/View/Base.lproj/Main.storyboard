@@ -41,6 +41,38 @@
             </objects>
             <point key="canvasLocation" x="1180" y="114"/>
         </scene>
+        <!--Date Picker View Controller-->
+        <scene sceneID="Opq-Xv-rxC">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hTz-6Z-pin" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController id="IkS-dF-Ap5" customClass="DatePickerViewController" customModule="divitup" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="n70-F9-ALI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="inline" translatesAutoresizingMaskIntoConstraints="NO" id="TSA-ac-Gq1">
+                                <rect key="frame" x="20" y="251" width="374" height="340"/>
+                                <connections>
+                                    <action selector="dateChanged:" destination="IkS-dF-Ap5" eventType="valueChanged" id="SYL-nc-moi"/>
+                                </connections>
+                            </datePicker>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="FIg-5i-eLy"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="TSA-ac-Gq1" firstAttribute="centerY" secondItem="n70-F9-ALI" secondAttribute="centerY" id="3KI-px-rKG"/>
+                            <constraint firstItem="FIg-5i-eLy" firstAttribute="trailing" secondItem="TSA-ac-Gq1" secondAttribute="trailing" constant="20" id="NEP-0V-7cY"/>
+                            <constraint firstItem="TSA-ac-Gq1" firstAttribute="leading" secondItem="FIg-5i-eLy" secondAttribute="leading" constant="20" id="ORe-oB-1ri"/>
+                            <constraint firstItem="TSA-ac-Gq1" firstAttribute="centerX" secondItem="n70-F9-ALI" secondAttribute="centerX" id="zkZ-Iz-iph"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="datePicker" destination="TSA-ac-Gq1" id="4dH-ls-Ym0"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1909" y="114"/>
+        </scene>
         <!--Receipts-->
         <scene sceneID="nPG-Ni-H4z">
             <objects>
@@ -102,7 +134,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Viewing Receipt" id="ndw-dT-LA5">
-                        <barButtonItem key="rightBarButtonItem" title="Item" image="calendar" catalog="system" id="ONs-Y8-gbc"/>
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="calendar" catalog="system" id="ONs-Y8-gbc">
+                            <connections>
+                                <segue destination="IkS-dF-Ap5" kind="presentation" identifier="pickDateSegue" id="XhD-81-dfE"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="DHi-ZU-Zq5" id="z1g-Re-CIe"/>
@@ -124,10 +160,10 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="LYf-0A-fZD">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UaL-Cb-Ibj">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UaL-Cb-Ibj">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="70"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="70" id="dmr-Re-I1t"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="70" id="dmr-Re-I1t"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
                                         <nil key="textColor"/>
